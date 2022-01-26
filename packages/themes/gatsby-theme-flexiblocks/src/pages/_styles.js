@@ -7,6 +7,7 @@
 import heroBg from './assets/dot-pattern.svg'
 import holographic from './assets/holographic.jpg'
 import heroBg3 from './assets/contour-pattern.svg'
+import arrow from './assets/arrows.png'
 import bg from './bg-3.jpg'
 
 export default {
