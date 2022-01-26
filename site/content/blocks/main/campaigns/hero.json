@@ -1,0 +1,37 @@
+{
+  "text": [
+    {
+      "text": "Modern Solutions",
+      "variant": "h4",
+      "color": "omegaDarker"
+    },
+    {
+      "text": "Higher Level of Email Engagement",
+      "variant": "h2"
+    },
+    {
+      "text": "Get your Offer Delivered to Engage Right Audience at Right Time",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/hero.png",
+      "alt": "Modern Solutions"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Explore More",
+      "type": "PAGE",
+      "link": "/campaigns/features/",
+      "variant": "primary"
+    },
+    {
+      "text": "Buy Now",
+      "type": "PAGE",
+      "link": "/campaigns/pricing/",
+      "variant": "secondary"
+    }
+  ]
+}

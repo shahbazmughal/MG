@@ -2,33 +2,51 @@
   "images": [
     {
       "src": "../../assets/flexiblocks/shared/logo.png",
-      "alt": "alt text"
+      "alt": "Mumara Logo"
+    }
+  ],
+  "text": [
+    {
+      "text": "Welcome to Mumara App Store, it started after the immense success of the Self-Hosted edition of Mumara Email, largely accepted worldwide.",
+      "variant": "small"
     }
   ],
   "collection": [
     {
       "text": [
         {
-          "text": "Quick Links"
+          "text": "Apps"
         }
       ],
       "buttons": [
         {
-          "text": "Home",
-          "type": "ANCHOR",
-          "link": "#hero",
+          "text": "Campaigns",
+          "type": "PAGE",
+          "link": "/campaigns",
           "variant": "links.nav-light"
         },
         {
-          "text": "Blog",
-          "type": "MODAL",
-          "link": "advertisement",
+          "text": "One",
+          "type": "PAGE",
+          "link": "/one",
           "variant": "links.nav-light"
         },
         {
-          "text": "Contact Us",
-          "type": "MODAL",
-          "link": "contact",
+          "text": "SMS+",
+          "type": "PAGE",
+          "link": "/smsplus/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "SMS",
+          "type": "PAGE",
+          "link": "/sms",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Classic",
+          "type": "PAGE",
+          "link": "/classic/",
           "variant": "links.nav-light"
         }
       ]
@@ -36,26 +54,59 @@
     {
       "text": [
         {
-          "text": "Legal Stuff"
+          "text": "RESOURCES"
         }
       ],
       "buttons": [
         {
-          "text": "Privacy Notice",
+          "text": "Community",
           "type": "PAGE",
-          "link": "",
+          "link": "https://community.mumara.com/",
           "variant": "links.nav-light"
         },
         {
-          "text": "Cookie Policy",
+          "text": "School",
           "type": "PAGE",
-          "link": "",
+          "link": "https://school.mumara.com/",
           "variant": "links.nav-light"
         },
         {
-          "text": "Terms Of Use",
+          "text": "Docs",
           "type": "PAGE",
-          "link": "",
+          "link": "https://support.mumara.com/help-center",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Blog",
+          "type": "PAGE",
+          "link": "https://blog.mumara.com/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Developers",
+          "type": "PAGE",
+          "link": "https://developers.mumara.com/",
+          "variant": "links.nav-light"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "POLICIES"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Terms of Services",
+          "type": "PAGE",
+          "link": "/terms-of-services",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Privacy Policy",
+          "type": "PAGE",
+          "link": "/privacy-policy",
           "variant": "links.nav-light"
         }
       ]
@@ -68,19 +119,20 @@
       ],
       "buttons": [
         {
-          "text": "Github",
+          "text": "Facebook",
           "type": "PAGE",
-          "link": "https://github.com/gatsby",
+          "link": "https://www.facebook.com/MumaraApps/",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-github.svg",
-            "color": "#2f4f4f"
+            "src": "../../assets/flexiblocks/icons/bxl-facebook.svg",
+            "color": "#1877f2",
+            "fill": "#1877f2"
           }
         },
         {
           "text": "Twitter",
           "type": "PAGE",
-          "link": "https://twitter.com/gatsby",
+          "link": "https://twitter.com/MumaraApps",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../assets/flexiblocks/icons/bxl-twitter.svg",
@@ -88,13 +140,33 @@
           }
         },
         {
-          "text": "Instagram",
+          "text": "Youtube",
           "type": "PAGE",
-          "link": "https://instagram.com/gatsby",
+          "link": "https://www.youtube.com/channel/UC1k6voQOVss0_PWg7CfJTdw",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-instagram.svg",
-            "color": "#c13584"
+            "src": "../../assets/flexiblocks/icons/bxl-youtube.svg",
+            "color": "#f44336"
+          }
+        },
+        {
+          "text": "Linkedin",
+          "type": "PAGE",
+          "link": "https://www.linkedin.com/company/mumara",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bxl-linkedin.svg",
+            "color": "#0078d4"
+          }
+        },
+        {
+          "text": "Email us",
+          "type": "PAGE",
+          "link": "mailto:support@mumara.com",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bx-envelope.svg",
+            "color": "#333333"
           }
         }
       ]

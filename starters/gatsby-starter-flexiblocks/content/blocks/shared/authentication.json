@@ -25,7 +25,7 @@
       "images": [
         {
           "src": "../../assets/flexiblocks/shared/login.jpg",
-          "alt": "alt text"
+          "alt": "free trial"
         }
       ],
       "form": {
@@ -116,7 +116,7 @@
       "images": [
         {
           "src": "../../assets/flexiblocks/shared/login.jpg",
-          "alt": "alt text"
+          "alt": "Log in to your account"
         }
       ],
       "form": {
@@ -188,7 +188,7 @@
       "images": [
         {
           "src": "../../assets/flexiblocks/homepage/saas/login.jpg",
-          "alt": "alt text"
+          "alt": "Recover"
         }
       ],
       "form": {

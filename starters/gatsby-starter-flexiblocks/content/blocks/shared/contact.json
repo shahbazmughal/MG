@@ -16,14 +16,14 @@
           "color": "omegaDark"
         },
         {
-          "text": "We'll get back you within 24 hours.",
+          "text": "Submit the short form below to schedule a free, business consultation with our experts.",
           "color": "omega"
         }
       ],
       "images": [
         {
           "src": "../../assets/flexiblocks/shared/contact.jpg",
-          "alt": "alt text"
+          "alt": "Any questions"
         }
       ],
       "form": {
@@ -78,7 +78,7 @@
           {
             "text": "Send Message",
             "type": "SUBMIT",
-            "variant": "secondary",
+            "variant": "primary",
             "width": "200px"
           }
         ]
@@ -105,15 +105,15 @@
         }
       ],
       "map": {
-        "lat": 59.955413,
-        "lng": 30.337844,
-        "zoom": 12
+        "lat": 31.466471,
+        "lng": 74.299855,
+        "zoom": 16
       },
       "collection": [
         {
           "text": [
             {
-              "text": "+123 (4567) 8910",
+              "text": "+1 (844) 686 – 2721",
               "color": "omegaDarker",
               "variant": "h6"
             }
@@ -127,9 +127,11 @@
         {
           "text": [
             {
-              "text": "hello@example.com",
+              "text": "sales@mumara.com",
               "color": "omegaDarker",
-              "variant": "h6"
+              "variant": "h6",
+              "link": "mailto:sales@mumara.com",
+              "type": "PAGE"
             }
           ],
           "icon": {
@@ -141,7 +143,21 @@
         {
           "text": [
             {
-              "text": "120 Street Lorem Ipsum Sit Amet",
+              "text": "708 3rd Ave NYC NY 10017",
+              "color": "omegaDarker",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bx-building-house.svg",
+            "color": "alpha",
+            "bg": "transaprent"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "171 B1, Johar Town Lahore",
               "color": "omegaDarker",
               "variant": "h6"
             }

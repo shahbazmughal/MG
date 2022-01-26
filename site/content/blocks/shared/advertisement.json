@@ -1,16 +1,10 @@
 {
   "text": [
     {
-      "text": "FlexiBlog Theme **Supercharge Your Website Traffic**",
+      "text": "Mumara Theme **Supercharge Your Website Traffic**",
       "color": "#805AD5",
       "variant": "h2",
       "space": 3
-    }
-  ],
-  "images": [
-    {
-      "src": "../../assets/flexiblocks/blog/flexiBlog-ad-skip-pkg.jpg",
-      "alt": "alt text"
     }
   ],
   "collection": [
@@ -22,7 +16,7 @@
       },
       "text": [
         {
-          "text": "FlexiBlog + FlexiBlocks",
+          "text": "Mumara + FlexiBlocks",
           "variant": "h6",
           "space": 1
         },
@@ -45,7 +39,7 @@
           "space": 1
         },
         {
-          "text": "FlexiBlog supports cloud-based or self-hosted CMSes for writing blog posts.",
+          "text": "Mumara supports cloud-based or self-hosted CMSes for writing blog posts.",
           "space": 1
         }
       ]
@@ -63,20 +57,10 @@
           "space": 1
         },
         {
-          "text": "FlexiBlog delivers maximum functionality with value-added serverless APIs.",
+          "text": "Mumara delivers maximum functionality with value-added serverless APIs.",
           "space": 1
         }
       ]
-    }
-  ],
-  "buttons": [
-    {
-      "text": "Checkout FlexiBlog",
-      "type": "PAGE",
-      "link": "https://themeforest.net/item/flexiblog-react-gatsby-blog-template/27538998/",
-      "target": "_blank",
-      "variant": "secondary",
-      "bg": "#805AD5"
     }
   ]
 }
