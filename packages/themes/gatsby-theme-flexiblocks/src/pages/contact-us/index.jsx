@@ -16,16 +16,14 @@ const IndexPage = props => {
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
   return (
-    <Layout theme={theme} {...props}>
+    <Layout theme={theme} {...props} className="contactus-page-main">
       <Seo title='Contact Us | Mumara' description="Fill in the contact form to send your query regarding apps and services or navigate your preferred app to send the demo request." keywords="mumara phone number,mumara contact number,mumara support,contact mumara" />
-      <div className="contactus-page-main">
         <Header content={content['header']} />
         <Team content={content['team']} />
         <Divider space='5' />
         <Contacts  />
         <Divider space='5' />
         <Footer content={content['footer']} />
-      </div>
     </Layout>
   )
 }
