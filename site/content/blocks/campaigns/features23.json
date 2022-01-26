@@ -1,0 +1,79 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-box.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Top **Domains**",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "View the top domains your emails are being sent to and focus your team more to be friends with them."
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic/features",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Most opened by **devices**",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "It gives you a brief summary of what devices are being used to open your emails along with a percentage breakup e.g. desktop, mobile, etc."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic/features",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "**A/B testing** to find the best",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Split the results of a campaign based on high performing broadcast, contact list, or a sending node. View detailed analytics on a single page."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic/features",
+          "variant": "links.normal"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+#team {
+    position: relative;
+    overflow: hidden;
+}
+#team .gatsby-image-wrapper img {
+    height: 100%;
+}
+@media (max-width:767px) {
+    #team .gatsby-image-wrapper img {
+        height: 55vh;
+    }
+}

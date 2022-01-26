@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "**Dynamic content** tags and unit rules",
+      "variant": "h2"
+    },
+    {
+      "text": "Stop sending generic emails to your customers. Add targeted content units to your emails based on their profile and activity. Our platform provides the capability to personalize your customer engagement strategy, based on who they are and where they're at in the shopping journey.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/dynamic-tags.svg",
+      "radius": "lg",
+      "alt": "Dynamic content",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/",
+      "variant": "primary-light"
+    }
+  ]
+}

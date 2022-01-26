@@ -1,0 +1,91 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Create Segments and Sub-segments",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Group your contacts of similar criteria into segments and sub-segments that you send email to and perform multiple actions on them. You can furthermore setup triggers on segments and sub-segments. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "bg": "omegaLighter",
+        "color": "beta"
+      },
+      "buttons": [
+        {
+          "text": "Learn more",
+          "type": "PAGE",
+          "link": "/campaigns/features/smart-segments/",
+          "variant": "links.nav-dark",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bx-doublearrow-right.svg",
+            "bg": "transparent"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Connect Multiple Sending Nodes (SMTPs) and Sending Domains",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Connect your desired courier to delivery your email. You can setup multiple SMTP accounts and add multiple sending domains to be sent from. Authenticate you domains to for qualified delivery using built-in authentication wizard. Lorem Ipsum is simply dummy text of the printing."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "omegaLighter",
+        "color": "beta"
+      },
+      "buttons": [
+        {
+          "text": "Learn more",
+          "type": "PAGE",
+          "link": "/campaigns/features/multiple-smtpssending-nodes/",
+          "variant": "links.nav-dark",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bx-doublearrow-right.svg",
+            "bg": "transparent"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Advanced Graphical & Geographical Reporting",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Stay updated with in real-time what is going on and who is opening your emails or clicking on which links. Moreover get notified on the ip addresses, geographical locations (including city, state, zip code), browsers and operating systems of the recipients."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
+        "bg": "omegaLighter",
+        "color": "beta"
+      },
+      "buttons": [
+        {
+          "text": "Learn more",
+          "type": "PAGE",
+          "link": "/campaigns/features/triggers/",
+          "variant": "links.nav-dark",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bx-doublearrow-right.svg",
+            "bg": "transparent"
+          }
+        }
+      ]
+    }
+  ]
+}

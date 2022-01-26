@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Mumara as a product",
+      "variant": "h1"
+    },
+    {
+      "text": "We help our clients achieve tangible, high-impact results.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/home/campain.png",
+      "alt": "Mumara as a product",
+      "radius": "lg",
+      "shadow": "lg"
+    }
+  ]
+}
