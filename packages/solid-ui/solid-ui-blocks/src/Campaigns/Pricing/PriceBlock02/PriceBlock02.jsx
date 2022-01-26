@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Slider from "react-rangeslider";
+import "react-rangeslider/lib/index.css";
 import { Container, Flex, Box } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
 import {Link} from 'gatsby';
-import "./index.css";
 import './react-slider.css'
 
 

@@ -1,4 +1,3 @@
-import icon from '../../assets/placeholder.svg'
 import image from '../../assets/placeholder.jpg'
 
 const placeholderImage = {

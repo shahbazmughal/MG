@@ -1,6 +1,4 @@
 import React from 'react'
-import Reveal from '@solid-ui-components/Reveal'
-import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 import { Helmet } from "react-helmet"
 import {Link} from 'gatsby';

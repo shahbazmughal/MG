@@ -1,7 +1,5 @@
 import React from 'react'
-import { getImage } from 'gatsby-plugin-image'
 import { Container, Flex, Box } from 'theme-ui'
-import ContentText from '@solid-ui-components/ContentText'
 import Reveal from '@solid-ui-components/Reveal'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 import './about_mission.css';

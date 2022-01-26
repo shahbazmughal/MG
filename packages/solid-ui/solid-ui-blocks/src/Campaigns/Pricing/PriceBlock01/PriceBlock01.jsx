@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Reveal from '@solid-ui-components/Reveal'
 import { Helmet } from "react-helmet"
 import PriceBlock02 from '../PriceBlock02'
 import './style.css'
