@@ -2,11 +2,8 @@ import React from 'react'
 import { getImage } from 'gatsby-plugin-image'
 import { Container, Flex, Box } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
-import Reveal from '@solid-ui-components/Reveal'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentImages from '@solid-ui-components/ContentImages'
-import ContentButtons from '@solid-ui-components/ContentButtons'
-import QuickSignupForm from '@solid-ui-components/QuickSignupForm'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const styles = {
@@ -66,22 +63,20 @@ const HeroBlock03 = ({
           : undefined
       }}
     >
-      <Reveal effect='fadeInDown'>
-        <ContentText
-          content={text?.[0]}
-          sx={{
-            bg: `omegaDarker`,
-            display: `inline-block`,
-            maxWidth:"100%",
-            padding:"10px 25px",
-            color:"#FFF"
-          }}
-          px='0'
-          mb='3'
-        />
-        <ContentText content={text?.[1]} mb='4' sx={styles.smallTitle} mx='auto' />
-        <ContentText content={text?.slice(2)}  mx='auto' />
-      </Reveal>
+      <ContentText
+        content={text?.[0]}
+        sx={{
+          bg: `omegaDarker`,
+          display: `inline-block`,
+          maxWidth:"100%",
+          padding:"10px 25px",
+          color:"#FFF"
+        }}
+        px='0'
+        mb='3'
+      />
+      <ContentText content={text?.[1]} mb='4' sx={styles.smallTitle} mx='auto' />
+      <ContentText content={text?.slice(2)}  mx='auto' />
     </Flex>
     <ContentContainer
       content={container}

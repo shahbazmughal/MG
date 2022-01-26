@@ -3,7 +3,6 @@ import { Link as GLink } from 'gatsby'
 import { Container, Box, Flex } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
 import ContentImages from '@solid-ui-components/ContentImages'
-import PoweredByGatsby from '@solid-ui-components/PoweredByGatsby'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
