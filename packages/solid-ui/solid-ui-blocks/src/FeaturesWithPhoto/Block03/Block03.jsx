@@ -24,7 +24,7 @@ const FeaturesWithPhotoBlock03 = ({ content: { text, buttons, images } }) => (
     </Box>
     {images && (
       <>
-        <Divider space={4} />
+        <Divider space={3} />
         <Box sx={{ position: `relative` }}>
           <ContentImages
             content={{ images }}

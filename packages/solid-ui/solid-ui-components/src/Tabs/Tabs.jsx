@@ -5,7 +5,6 @@ import { Box, Button } from 'theme-ui'
 import Divider from '@solid-ui-components/Divider'
 import { TabsContext } from '@solid-ui-components/Tabs'
 import styles from './styles'
-import './tabs.css'
 
 const StyledTabs = ({
   id,

@@ -6,33 +6,61 @@ const placeholderImage = {
   objectFit: 'none',
   medium: {
     src: image,
-    maxWidth: 600,
+    maxWidth: 500,
     aspectRatio: 1,
     sizes: '',
     srcSet: ''
-  },
-  large: {
-    fontSize:`6rem`,
-    lineHeight:1
   }
 }
 
 export default {
   text: [
-    { text: 'NOT FOUND', variant: 'h4' },
-    { text: '404', variant: 'h1' },
-    { text: 'Page not found.', variant: 'medium' },
-    { text: 'The page you were looking for doesn`t exist.', variant: 'small' }
+    { text: 'KICKER TEXT', variant: 'h4' },
+    { text: 'Title Text', variant: 'h2' },
+    { text: 'First placeholder for description text.', variant: 'medium' },
+    { text: 'Second placeholder for description text.', variant: 'medium' }
   ],
   images: [
     {
       src: placeholderImage
     }
   ],
+  collection: [
+    {
+      text: [{ text: 'Text Content No.1' }, { text: 'Text Content No.2' }],
+      description: 'Lorem ipsum dolor sit amet, dopi se contetur adicing elit.',
+      icon: {
+        src: icon,
+        color: '#667eea',
+        bg: 'transparent'
+      }
+    },
+    {
+      text: [{ text: 'Text Content No.1' }, { text: 'Text Content No.2' }],
+      description: 'Lorem ipsum dolor sit amet, dopi se contetur adicing elit.',
+      icon: {
+        src: icon,
+        color: '#667eea',
+        bg: 'transparent'
+      }
+    },
+    {
+      text: [{ text: 'Text Content No.1' }, { text: 'Text Content No.2' }],
+      description: 'Lorem ipsum dolor sit amet, dopi se contetur adicing elit.',
+      icon: {
+        src: icon,
+        color: '#667eea',
+        bg: 'transparent'
+      }
+    }
+  ],
   buttons: [
     {
-      text: 'Go to Home',
-      type: "PAGE",
+      text: 'Button One',
+      link: '/'
+    },
+    {
+      text: 'Button Two',
       link: '/'
     }
   ]

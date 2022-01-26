@@ -10,8 +10,6 @@ const Seo = ({
   keywords,
   author,
   thumbnail,
-  image,
-  image2,
   siteUrl
 }) => {
   const site = useSiteMetadata()
@@ -28,7 +26,7 @@ const Seo = ({
     (thumbnail.startsWith('//')
       ? thumbnail
       : siteUrl && `${siteUrl}${thumbnail}`)
- 
+
   /**
    * Meta Tags
    */
@@ -36,31 +34,23 @@ const Seo = ({
   const metaTags = [
     { itemprop: 'name', content: title || site.title },
     { itemprop: 'description', content: description },
-    { name: 'title', content: title || site.title},
     { name: 'description', content: description },
 
-    { property: 'og:site_name', content: title || site.title },
-    { property: 'og:type', content: "article" },
-    { property: 'og:url', content: siteUrl || site.siteUrl },
     { property: 'og:title', content: title || site.title },
     { property: 'og:description', content: description },
     { property: 'og:type', content: 'website' },
     { property: 'og:site_name', content: site.name },
-    { property: 'og:image', content: image || "https://mumara-final.netlify.app/Mumara-Feature-Image.jpg" },
-    { property: 'og:image:width', content: "1000" },
-    { property: 'og:image:height', content: "800" },
+    { property: 'og:image', content: thumbnailUrl },
 
     { name: 'twitter:card', content: 'summary' },
     { name: 'twitter:site', content: site.name },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
-    { name: 'twitter:creator', content: twitter.url },
-    { name: 'twitter:image', content: image2 || "https://mumara-final.netlify.app/Mumara-Feature-Image.jpg" },
-    { name: 'favicon', rel: 'shortcut icon' , content: "/favicon.ico" }
+    { name: 'twitter:creator', content: twitter.url }
   ]
 
   if (keywords && keywords.length > 0) {
-    metaTags.push({ name: 'keywords', content: keywords })
+    metaTags.push({ name: 'keywords', content: keywords.join(', ') })
   }
 
   if (meta) {

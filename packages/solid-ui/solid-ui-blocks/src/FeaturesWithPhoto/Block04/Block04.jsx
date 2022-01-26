@@ -4,7 +4,6 @@ import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import ContentText from '@solid-ui-components/ContentText'
 import ContentImages from '@solid-ui-components/ContentImages'
-import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const styles = {
@@ -15,7 +14,7 @@ const styles = {
   }
 }
 const FeaturesWithPhotoBlock04 = ({
-  content: { text, images, collection, buttons }
+  content: { text, images, collection }
 }) => (
   <Container>
     {text && (
@@ -61,14 +60,6 @@ const FeaturesWithPhotoBlock04 = ({
         </Reveal>
       </Box>
     </Flex>
-    <Box sx={{ textAlign: `center` }}>
-        {buttons && (
-          <>
-            <Divider />
-            <ContentButtons content={buttons}  sx={{ textAlign: `center` }} />
-          </>
-        )}
-    </Box>
   </Container>
 )
 

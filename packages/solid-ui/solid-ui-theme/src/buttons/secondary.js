@@ -5,7 +5,7 @@ export default {
   color: `white`,
   '::after': {
     ...common.button['::after'],
-    bg: `#007bff`,
-    borderColor: `#007bff`
+    bg: `beta`,
+    borderColor: `beta`
   }
 }

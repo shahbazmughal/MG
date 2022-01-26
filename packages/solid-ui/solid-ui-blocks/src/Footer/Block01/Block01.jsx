@@ -35,13 +35,13 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
               © {new Date().getFullYear()}, All Rights Reserved.
             </Box>
             <Box>
-              
+              <PoweredByGatsby />
             </Box>
           </Box>
           {collection?.map(
             ({ text, buttons }, index) =>
               buttons && (
-                <Box key={`item-${index}`} mb='3' className="footer-links">
+                <Box key={`item-${index}`} mb='3'>
                   <ContentText
                     content={text?.[0]}
                     variant='h5'

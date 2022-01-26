@@ -31,8 +31,8 @@ const styles = {
     '.button-group-button': {
       minWidth: 120,
       fontSize: 1,
-      px: 4,
-      py: 2
+      px: 3,
+      py: 1
     }
   },
   header: {
@@ -54,7 +54,7 @@ const styles = {
   }
 }
 
-const SubHeader = ({ content: { images, collection }, menuJustify }) => {
+const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
   return (
     <>
       <Sticky
@@ -135,8 +135,8 @@ const SubHeader = ({ content: { images, collection }, menuJustify }) => {
   )
 }
 
-SubHeader.defaultProps = {
+HeaderBlock01.defaultProps = {
   menuJustify: `flex-end`
 }
 
-export default WithDefaultContent(SubHeader)
+export default WithDefaultContent(HeaderBlock01)
