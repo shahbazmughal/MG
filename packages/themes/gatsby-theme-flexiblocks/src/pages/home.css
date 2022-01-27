@@ -2,6 +2,7 @@
     background: rgb(33,150,243 ,.3);
 }
 .seo-block {display: none !important;}
+#gatsby-announcer {opacity: 0 !important;}
 .home-products .css-16mz558 {
     display: block !important;
 }
