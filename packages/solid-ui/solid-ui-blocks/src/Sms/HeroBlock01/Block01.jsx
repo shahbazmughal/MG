@@ -44,17 +44,27 @@ const HeroBlock01 = ({
           textAlign: [`center`, null, null, `left`]
         }}
       >
+        <Box>
           <ContentText content={text} />
+        </Box>
         {buttons && (
+          <Box
+            css={css({ mb: [4, null, null, 0] })}
+          >
             {buttons && (
               <>
                 <Divider space={3} />
                 <ContentButtons content={buttons} />
               </>
             )}
+          </Box>
         )}
         {form && (
+          <Box
+            css={css({ mb: [4, null, null, 0] })}
+          >
             <QuickSignupForm {...form} space={3} />
+          </Box>
         )}
       </Box>
     </Flex>
