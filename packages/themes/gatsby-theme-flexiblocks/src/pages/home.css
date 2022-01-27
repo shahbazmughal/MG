@@ -1,6 +1,7 @@
 ::selection {
     background: rgb(33,150,243 ,.3);
 }
+.seo-block {display: none !important;}
 .home-products .css-16mz558 {
     display: block !important;
 }

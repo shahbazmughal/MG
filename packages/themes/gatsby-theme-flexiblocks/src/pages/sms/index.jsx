@@ -42,11 +42,11 @@ const IndexPage = props => {
     <Layout theme={theme} {...props}>
       <Seo title='SMS Marketing and Beyond' description="Create engaging SMS marketing campaigns and get your text read within seconds of delivery. You can connect to your customers of 200 plus destinations." />
       {/* Blocks */}
-      <Header content={content['header']} />
-      <div className="subheader-block">
-        <SubHeader content={content['subheader_sms']} menuJustify='space-between' />
-      </div>
       <div className="sms-page">
+        <Header content={content['header']} />
+        <div className="subheader-block">
+          <SubHeader content={content['subheader_sms']} menuJustify='space-between' />
+        </div>
         <Divider space='5' />
         <Divider space='5' />
         <Hero content={content['hero']} reverse />

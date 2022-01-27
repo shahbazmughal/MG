@@ -81,7 +81,7 @@ function index(props) {
                     `}
                 </script>
             </Helmet>
-            <div style={{display: "none"}}>
+            <div className="seo-block" style={{display: "none"}}>
                 <ol itemScope itemType="http://schema.org/BreadcrumbList" style={{display: "none"}}>
                     <li itemProp="itemListElement" itemScope
                         itemType="http://schema.org/ListItem">

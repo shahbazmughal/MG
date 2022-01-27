@@ -3,7 +3,7 @@ import {Link} from 'gatsby';
 
 function index(props) {
     return (
-        <div style={{display: "none"}}>
+        <div className="seo-block" style={{display: "none"}}>
             <div className="sitesearch" itemScope itemType="https://schema.org/WebSite">
                 <meta itemProp="url" content="https://www.mumara.com/"/>
                 <form itemProp="potentialAction" itemScope itemType="https://schema.org/SearchAction">
