@@ -2,7 +2,6 @@ import React from 'react'
 import { getImage } from 'gatsby-plugin-image'
 import { Container, Flex, Box } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
-import Reveal from '@solid-ui-components/Reveal'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentImages from '@solid-ui-components/ContentImages'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
@@ -46,7 +45,6 @@ const HeroBlock03 = ({
           : undefined
       }}
     >
-      <Reveal effect='fadeInDown'>
         <Box sx={{mt:3}}></Box>
         <ContentText
           content={text?.[0]}
@@ -60,7 +58,6 @@ const HeroBlock03 = ({
         />
         <ContentText content={text?.[1]} mb='0' mt='0' mx='auto' />
         <ContentText content={text?.slice(2)} mx='auto' />
-      </Reveal>
     </Flex>
     <ContentContainer
       content={container}

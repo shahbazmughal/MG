@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Flex, Box } from 'theme-ui'
-import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentText from '@solid-ui-components/ContentText'
@@ -16,7 +15,6 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
     {collection && (
       <>
         <Divider space='0' />
-        <Reveal effect='fadeInDown'>
           <Flex sx={{ justifyContent: `start`, flexWrap: `wrap`, m: 0 }}>
             {collection.map(({ container, buttons, ...props }, index) => (
               <Box
@@ -39,7 +37,6 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
               </Box>
             ))}
           </Flex>
-        </Reveal>
       </>
     )}
   </Container>

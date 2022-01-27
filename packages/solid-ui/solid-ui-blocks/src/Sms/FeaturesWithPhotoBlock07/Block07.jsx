@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Flex, Box, Heading } from 'theme-ui'
-import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import FlexImage from '@solid-ui-components/FlexImage'
 import FlexContent from '@solid-ui-components/FlexContent'
@@ -62,10 +61,6 @@ const FeaturesWithPhotoBlock07 = ({
         {collection && (
           <>
             <Divider space={3} />
-            <Reveal
-              effect={reverse ? 'fadeInRight' : 'fadeInLeft'}
-              duration={1.5}
-            >
               {collection.map(({ text }, index) => (
                 <Flex key={`item-${index}`} sx={styles.listItem}>
                   <Box sx={{ position: `relative`, flexShrink: 0, mr: 4 }}>
@@ -80,7 +75,6 @@ const FeaturesWithPhotoBlock07 = ({
                   </Box>
                 </Flex>
               ))}
-            </Reveal>
           </>
         )}
         {buttons && (

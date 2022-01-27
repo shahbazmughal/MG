@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Flex, Box } from 'theme-ui'
-import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import ListItem from '@solid-ui-components/ListItem'
 import ContentContainer from '@solid-ui-components/ContentContainer'
@@ -8,7 +7,7 @@ import ContentText from '@solid-ui-components/ContentText'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const FaqBlock02 = ({ content: { text, collection } }) => (
-  <Container as={Reveal}>
+  <Container>
     <Box sx={{ textAlign: `center` }}>
       <ContentText content={text} />
     </Box>

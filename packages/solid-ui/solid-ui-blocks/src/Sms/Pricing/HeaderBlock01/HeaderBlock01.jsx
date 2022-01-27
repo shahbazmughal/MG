@@ -2,7 +2,6 @@ import React from 'react'
 import { Link as GLink } from 'gatsby'
 import Sticky from 'react-sticky-el'
 import { Container, Box, Flex, css } from 'theme-ui'
-import Reveal from '@solid-ui-components/Reveal'
 import Drawer from '@solid-ui-components/Drawer'
 import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
@@ -77,7 +76,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
               {collection && (
                 <>
                   <Box sx={styles.desktopMenu}>
-                    <Reveal effect='fadeInDown'>
                       <Flex
                         sx={{
                           alignItems: `center`,
@@ -100,7 +98,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                             )
                         )}
                       </Flex>
-                    </Reveal>
                   </Box>
                   <Box sx={styles.mobileMenu}>
                     <Drawer buttonStyle={{ svg: { size: 32 } }}>

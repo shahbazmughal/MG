@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Flex, Box, css } from 'theme-ui'
-import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import Icon from '@solid-ui-components/ContentIcon'
 import ContentContainer from '@solid-ui-components/ContentContainer'
@@ -37,7 +36,7 @@ const FeaturesBlock04 = ({
     {collection && (
       <>
         <Divider />
-        <ContentContainer content={container} as={Reveal} variant='cards.paper'>
+        <ContentContainer content={container} variant='cards.paper'>
           <Flex sx={{ flexWrap: `wrap` }}>
             {collection?.map(({ text, icon }, index) => (
               <Box key={`item-${index}`} css={css(styles.listItem)}>
