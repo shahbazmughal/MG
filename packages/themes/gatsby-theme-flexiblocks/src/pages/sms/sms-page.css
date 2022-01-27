@@ -20,5 +20,10 @@
         line-height: 30px;
     }
 }
+img {max-width:100%}
 .seo-block {display: none !important;}
 #gatsby-announcer {opacity: 0 !important;}
+#feature-tab-one img {
+    max-width: 550px !important;
+    height: auto !important;
+}

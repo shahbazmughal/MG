@@ -1,6 +1,7 @@
 ::selection {
     background: rgb(33,150,243 ,.3);
 }
+img {max-width:100%}
 .seo-block {display: none !important;}
 #gatsby-announcer {opacity: 0 !important;}
 .home-products .css-16mz558 {

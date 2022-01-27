@@ -35,7 +35,7 @@ const IndexPage = props => {
     }
   }
   setTimeout(function() {
-   myFunction()
+   //myFunction()
   }, 2000);
 
   return (
