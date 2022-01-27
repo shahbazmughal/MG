@@ -19,6 +19,18 @@ const Services01 = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
+  function myFunction() {
+    var x = document.getElementById("___gatsby");
+    var y = x.getElementsByTagName("*");
+    var i;
+    for (i = 0; i < y.length; i++) {
+      y[i].style = "opacity:1";
+    }
+  }
+  setTimeout(function() {
+   myFunction()
+  }, 2000);
+
   return (
     <Layout theme={theme} {...props}>
       <Seo title='Bulk SMS Platform' description="A Bulk SMS platform loaded with all necessary features to create text engagement campaigns and drive growth to your business." keywords="bulk sms platform,sms engagement,bulk sms solutions,global phone carriers,sell more,sell to more,marketing sms" />

@@ -13,8 +13,8 @@ module.exports = {
   ],
   // Customize your site metadata
   siteMetadata: {
-    title: 'FlexiBlocks Theme',
-    name: 'FlexiBlocks',
-    description: 'My site description...'
+    title: 'Mumara',
+    name: 'Mumara',
+    description: 'Mumara is collection of SaaS applications and customer engagement tools to fuel your multi-channel marketing strategy.'
   }
 }
