@@ -264,7 +264,7 @@ select#selfHostDD2 {
     height: 40px;
     -webkit-appearance: button;
     -webkit-border-radius: 2px;
-    background-image: url(/img/dd.png), -webkit-linear-gradient(#ffffff, #f4f5f7 40%, #E5E5E5);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAeBAMAAADayfNlAAAAFVBMVEWqqqo6PkUTGCH///8sLzQAAAD///9nPTp+AAAABnRSTlPAgHhNAD+uBxJqAAAAM0lEQVQYlWNQdoEDhkHPdk4DAhMI25UtLS0hBKomIC2NFabelS0hBK43gBVhjmvIwLkfAEDLVFOES3T2AAAAAElFTkSuQmCC), -webkit-linear-gradient(#ffffff, #f4f5f7 40%, #E5E5E5);
     background-position: 95% center;
     background-repeat: no-repeat;
     border: 1px solid #878a8f;
@@ -333,13 +333,14 @@ select#f2user {
     min-width: 0px;
     color: #0f977e;
 }
-/* .f2user-blk:before {
+.f2user-blk:before {
     content: "\f279";
     font-family: bootstrap-icons !important;
     position: absolute;
     right: 7px;
     color: #b4b4b4;
-} */
+    display: none !important;
+}
 table#price-compare-table2 td:first-child {
     text-align: left;
 }
