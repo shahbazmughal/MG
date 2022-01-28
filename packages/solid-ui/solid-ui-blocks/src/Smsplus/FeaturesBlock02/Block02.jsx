@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Flex, Box } from 'theme-ui'
 import ContentContainer from '@solid-ui-components/ContentContainer'
-import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import ContentText from '@solid-ui-components/ContentText'
 import Icon from '@solid-ui-components/ContentIcon'
@@ -11,7 +10,6 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 const FeaturesBlock02 = ({ content: { text, collection, buttons } }) => (
   <Container sx={{ textAlign: `center` }}>
     <ContentText content={text} />
-    <Reveal effect='fadeInUp'>
       {collection && (
         <>
           <Divider />
@@ -51,7 +49,6 @@ const FeaturesBlock02 = ({ content: { text, collection, buttons } }) => (
           <ContentButtons content={buttons} />
         </>
       )}
-    </Reveal>
   </Container>
 )
 

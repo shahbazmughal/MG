@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Flex, Box } from 'theme-ui'
-import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import FlexImage from '@solid-ui-components/FlexImage'
 import FlexContent from '@solid-ui-components/FlexContent'
@@ -49,20 +48,14 @@ const FeaturesWithPhotoBlock05 = ({
             <Divider space={3} />
             <Flex sx={styles.items}>
               {collection.map(({ text }, index) => (
-                <Reveal
-                  key={`item-${index}`}
-                  effect='fadeInPop'
-                  delay={0.3 * (index + 1)}
+                <Flex
+                  sx={{
+                    flexDirection: `column`,
+                    height: `full`
+                  }}
                 >
-                  <Flex
-                    sx={{
-                      flexDirection: `column`,
-                      height: `full`
-                    }}
-                  >
-                    <ContentText content={text} ml={0} />
-                  </Flex>
-                </Reveal>
+                  <ContentText content={text} ml={0} />
+                </Flex>
               ))}
             </Flex>
           </>

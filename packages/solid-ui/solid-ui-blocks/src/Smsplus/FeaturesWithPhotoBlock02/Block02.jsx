@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Flex, Box, Card, css } from 'theme-ui'
-import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import ListItem from '@solid-ui-components/ListItem'
 import FlexImage from '@solid-ui-components/FlexImage'
@@ -38,7 +37,7 @@ const FeaturesWithPhotoBlock02 = ({
             <Divider space={3} />
             <Flex sx={{ flexWrap: `wrap`, maxWidth: 500, m: -2 }}>
               {collection.map((props, index) => (
-                <Reveal
+                <Box
                   key={`item-${index}`}
                   effect='fadeInPop'
                   delay={1 + 0.2 * (index + 1)}
@@ -47,7 +46,7 @@ const FeaturesWithPhotoBlock02 = ({
                   <Card py='3' m='2'>
                     <ListItem {...props} compact middle p='2' />
                   </Card>
-                </Reveal>
+                </Box>
               ))}
             </Flex>
           </>

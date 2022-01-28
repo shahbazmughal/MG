@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Flex, Box, css, Link } from 'theme-ui'
 import Divider from '@solid-ui-components/Divider'
-import Reveal from '@solid-ui-components/Reveal'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentText from '@solid-ui-components/ContentText'
 import Icon from '@solid-ui-components/ContentIcon'
@@ -34,7 +33,7 @@ const styles = {
 }
 
 const FeaturesBlock05 = ({ content: { text, collection, icon2 } }) => (
-  <Container as={Reveal}>
+  <Container>
     <Box sx={{ textAlign: `center` }}>
       <ContentText content={text} />
     </Box>
@@ -44,7 +43,7 @@ const FeaturesBlock05 = ({ content: { text, collection, icon2 } }) => (
         <Flex sx={{ flexWrap: `wrap` }} m={-3}>
           {collection.map(
             ({ text, icon, collection, buttons, container }, index) => (
-              <Reveal
+              <Box
                 key={`item-${index}`}
                 effect='fadeInGrow'
                 delay={0.15 * (index + 1)}
@@ -71,7 +70,7 @@ const FeaturesBlock05 = ({ content: { text, collection, icon2 } }) => (
                     </>
                   )}
                 </ContentContainer>
-              </Reveal>
+              </Box>
             )
           )}
         </Flex>

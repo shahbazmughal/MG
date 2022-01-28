@@ -1,7 +1,6 @@
 import React from 'react'
 import SVG from 'react-inlinesvg'
 import { Container, Flex, Box, css } from 'theme-ui'
-import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
 import ContentText from '@solid-ui-components/ContentText'
 import ContentButtons from '@solid-ui-components/ContentButtons'
@@ -32,7 +31,7 @@ const CompaniesBlock01 = ({ content }) => {
         <Divider space={3} />
         {collection?.map(({ text, icon, images }, index) => (
           <Box key={`item-${index}`} sx={{ flexBasis: [`1`, `1/2`, null, `1/3`], p: 0 }} imagePosition='center'>
-            <Reveal
+            <Box
               effect='fadeInGrow'
               delay={0.2 * (index + 2)}
               title={text?.[0]?.text}
@@ -44,7 +43,7 @@ const CompaniesBlock01 = ({ content }) => {
                 imagePosition='center'
                 sx={styles.logo}
               />
-            </Reveal>
+            </Box>
           </Box>
         ))}
       </Flex>

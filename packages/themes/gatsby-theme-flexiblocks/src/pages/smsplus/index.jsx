@@ -33,9 +33,6 @@ const IndexPage = props => {
       <Seo title='Start SMS Service' description="SMSplus is the platform for the ones who are looking to start SMS service. It is combination of features necessary for SMS service providers to operate." />
       {/* Blocks */}
       <div className="smsplus-page">
-        <div className="subheader-block">
-          <SubHeader content={content['subheader_smsplus']} menuJustify='space-between' />
-        </div>
         <Header content={content['header-light']} menuJustify='space-between' />
         <Divider space='5' />
         <Container variant='full' sx={styles.heroContainer}>

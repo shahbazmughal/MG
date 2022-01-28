@@ -16,6 +16,9 @@ img {max-width:100%}
     padding: 10px 20px !important;
     margin-right: -7px;
 }
+img {max-width:100%}
+.seo-block {display: none !important;}
+#gatsby-announcer {opacity: 0 !important;}
 @media (min-width: 768px) {
     .container {
         width: 750px;
