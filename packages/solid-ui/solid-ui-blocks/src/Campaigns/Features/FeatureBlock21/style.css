@@ -28,11 +28,11 @@
     left: -3px;
 }
 .fpbicon {
-    font-size: 24px !important;
+    font-size: 22px !important;
     line-height: 1;
     display: inline-block;
 }
-.text-success {
+.fpbicon.text-success {
     color: #0f977e !important;
 }
 .pricing ul {
