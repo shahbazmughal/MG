@@ -9,6 +9,7 @@ import Footer from '@solid-ui-blocks/Sms/FooterBlock01'
 import Team from '@solid-ui-blocks/Contacts/HeroBlock03'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import RequestDemo from '@solid-ui-blocks/Classic/RequestDemo/RequestDemo'
+import { Helmet } from "react-helmet"
 import './classic-demo.css'
 import theme from './_theme'
 
@@ -29,11 +30,11 @@ const IndexPage = props => {
         <RequestDemo  />
         <Divider space='5' />
         <Footer content={content['footer']} />
-        <Helmet>
-          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous" />
-        </Helmet>
       </div>
+      <Helmet>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous" />
+      </Helmet>
     </Layout>
   )
 }
