@@ -69,6 +69,14 @@ img {max-width:100%}
 .campaignplus-page #team a.button-group-button.css-18ateur {
     display: grid;
 }
+.fpbicon {
+    font-size: 24px !important;
+    line-height: 1;
+    display: inline-block;
+}
+.text-success {
+    color: #0f977e !important;
+}
 
 @media (max-width:767px) {
     .campaignplus-page #team .css-ypyltq {

@@ -49,17 +49,17 @@ function FeaturePriceBlock() {
                   <div style={{color: "#bababa", fontSize:13, fontWeight:300}}>(Single User)</div>
                   <div className="price mb-3">Free<span className="monthly"> Monthly</span></div>
                   <ul className="price-180">
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Single user</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> 5000 Contacts</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> All modules except
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Single user</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> 5000 Contacts</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> All modules except
                       <ul>
-                        <li><img src="/static/1308127a2ac886b4b0add7116436ebb2/c5cbb/minus.png" /> Segments</li>
-                        <li><img src="/static/1308127a2ac886b4b0add7116436ebb2/c5cbb/minus.png" /> Drips</li>
-                        <li><img src="/static/1308127a2ac886b4b0add7116436ebb2/c5cbb/minus.png" /> Triggers</li>
-                        <li><img src="/static/1308127a2ac886b4b0add7116436ebb2/c5cbb/minus.png" /> Staff Management</li>
+                        <li><i class="bi bi-patch-minus-fill fpbicon text-success"></i> Segments</li>
+                        <li><i class="bi bi-patch-minus-fill fpbicon text-success"></i> Drips</li>
+                        <li><i class="bi bi-patch-minus-fill fpbicon text-success"></i> Triggers</li>
+                        <li><i class="bi bi-patch-minus-fill fpbicon text-success"></i> Staff Management</li>
                       </ul>
                     </li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Community Support</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Community Support</li>
                   </ul>
                   <div className="update">
                     <i className="bi bi-check"><img src="/img/check.png" /></i>
@@ -74,13 +74,13 @@ function FeaturePriceBlock() {
                   <div style={{color: "#bababa", fontSize:13, fontWeight:300}}>(Single User)</div>
                   <div className="price mb-3"><sup>$</sup><span id="consPrice31">7</span><span className="monthly" id="monthlyannual1"> Monthly</span></div>
                   <ul className="price-180">
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Everything as in Lite Edition</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Unlimited Contacts</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Unlimited Lists</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Unlimited Nodes</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Unlimited Domains</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Support Desk</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Community Support</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Everything as in Lite Edition</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Unlimited Contacts</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Unlimited Lists</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Unlimited Nodes</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Unlimited Domains</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Support Desk</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Community Support</li>
                   </ul>
                   <div className="update">
                     <i className="bi bi-check"><img src="/img/check.png" /></i>
@@ -96,12 +96,12 @@ function FeaturePriceBlock() {
                   <div style={{color: "#bababa", fontSize:13, fontWeight:300}}>(Single User)</div>
                   <div className="price mb-3"><sup>$</sup><span id="consPrice32">17</span><span className="monthly" id="monthlyannual2"> Monthly</span></div>
                   <ul className="price-180">
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Everything as in Personal Edition</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Segments</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Drips</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Triggers</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Staff Management</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Support Desk</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Everything as in Personal Edition</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Segments</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Drips</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Triggers</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Staff Management</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Support Desk</li>
                   </ul>
                   <div className="update">
                     <i className="bi bi-check"><img src="/img/check.png" /></i>
@@ -124,10 +124,10 @@ function FeaturePriceBlock() {
                     </select>
                   </div>
                   <ul className="price-180 w225">
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Every as in Professional Edition</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> User Management</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Packages</li>
-                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Premium Support</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Every as in Professional Edition</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> User Management</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Packages</li>
+                    <li><i class="bi bi-patch-plus-fill fpbicon text-success"></i> Premium Support</li>
                   </ul>
                   <div className="update">
                     <i className="bi bi-check"><img src="/img/check.png" /></i>
