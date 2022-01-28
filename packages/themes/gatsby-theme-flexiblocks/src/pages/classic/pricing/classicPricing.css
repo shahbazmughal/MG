@@ -180,7 +180,9 @@ dl, ol, ul {
     margin-top: 0.25rem !important;
     margin-bottom: 0.25rem !important;
 }
-
+.pricing .btn-buy {
+    background: #0f977e;
+}
 
 
 
