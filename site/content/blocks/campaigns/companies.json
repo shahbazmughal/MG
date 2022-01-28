@@ -1,0 +1,49 @@
+{
+  "collection": [
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-1.png",
+          "alt": "SendGrid",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-2.png",
+          "alt": "MailGun",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-3.png",
+          "alt": "AmazonSES",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-4.png",
+          "alt": "SparkPost",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-5.png",
+          "alt": "MailJet",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    }
+  ]
+}

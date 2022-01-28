@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "**Spintags** to generate unique content",
+      "variant": "h2"
+    },
+    {
+      "text": "Rotate content to keep it unique and refreshing by adding variations in your content through the use of the powerful Spintag feature.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/spintags.svg",
+      "radius": "lg",
+      "alt": "Spintags",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/",
+      "variant": "primary-light"
+    }
+  ]
+}
