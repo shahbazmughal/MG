@@ -49,17 +49,17 @@ function FeaturePriceBlock() {
                   <div style={{color: "#bababa", fontSize:13, fontWeight:300}}>(Single User)</div>
                   <div className="price mb-3">Free<span className="monthly"> Monthly</span></div>
                   <ul className="price-180">
-                    <li><img src="/img/plus.png" /> Single user</li>
-                    <li><img src="/img/plus.png" /> 5000 Contacts</li>
-                    <li><img src="/img/plus.png" /> All modules except
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Single user</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> 5000 Contacts</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> All modules except
                       <ul>
-                        <li><img src="/img/minus.png" /> Segments</li>
-                        <li><img src="/img/minus.png" /> Drips</li>
-                        <li><img src="/img/minus.png" /> Triggers</li>
-                        <li><img src="/img/minus.png" /> Staff Management</li>
+                        <li><img src="/static/1308127a2ac886b4b0add7116436ebb2/c5cbb/minus.png" /> Segments</li>
+                        <li><img src="/static/1308127a2ac886b4b0add7116436ebb2/c5cbb/minus.png" /> Drips</li>
+                        <li><img src="/static/1308127a2ac886b4b0add7116436ebb2/c5cbb/minus.png" /> Triggers</li>
+                        <li><img src="/static/1308127a2ac886b4b0add7116436ebb2/c5cbb/minus.png" /> Staff Management</li>
                       </ul>
                     </li>
-                    <li><img src="/img/plus.png" /> Community Support</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Community Support</li>
                   </ul>
                   <div className="update">
                     <i className="bi bi-check"><img src="/img/check.png" /></i>
@@ -74,13 +74,13 @@ function FeaturePriceBlock() {
                   <div style={{color: "#bababa", fontSize:13, fontWeight:300}}>(Single User)</div>
                   <div className="price mb-3"><sup>$</sup><span id="consPrice31">7</span><span className="monthly" id="monthlyannual1"> Monthly</span></div>
                   <ul className="price-180">
-                    <li><img src="/img/plus.png" /> Everything as in Lite Edition</li>
-                    <li><img src="/img/plus.png" /> Unlimited Contacts</li>
-                    <li><img src="/img/plus.png" /> Unlimited Lists</li>
-                    <li><img src="/img/plus.png" /> Unlimited Nodes</li>
-                    <li><img src="/img/plus.png" /> Unlimited Domains</li>
-                    <li><img src="/img/plus.png" /> Support Desk</li>
-                    <li><img src="/img/plus.png" /> Community Support</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Everything as in Lite Edition</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Unlimited Contacts</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Unlimited Lists</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Unlimited Nodes</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Unlimited Domains</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Support Desk</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Community Support</li>
                   </ul>
                   <div className="update">
                     <i className="bi bi-check"><img src="/img/check.png" /></i>
@@ -96,12 +96,12 @@ function FeaturePriceBlock() {
                   <div style={{color: "#bababa", fontSize:13, fontWeight:300}}>(Single User)</div>
                   <div className="price mb-3"><sup>$</sup><span id="consPrice32">17</span><span className="monthly" id="monthlyannual2"> Monthly</span></div>
                   <ul className="price-180">
-                    <li><img src="/img/plus.png" /> Everything as in Personal Edition</li>
-                    <li><img src="/img/plus.png" /> Segments</li>
-                    <li><img src="/img/plus.png" /> Drips</li>
-                    <li><img src="/img/plus.png" /> Triggers</li>
-                    <li><img src="/img/plus.png" /> Staff Management</li>
-                    <li><img src="/img/plus.png" /> Support Desk</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Everything as in Personal Edition</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Segments</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Drips</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Triggers</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Staff Management</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Support Desk</li>
                   </ul>
                   <div className="update">
                     <i className="bi bi-check"><img src="/img/check.png" /></i>
@@ -124,10 +124,10 @@ function FeaturePriceBlock() {
                     </select>
                   </div>
                   <ul className="price-180 w225">
-                    <li><img src="/img/plus.png" /> Every as in Professional Edition</li>
-                    <li><img src="/img/plus.png" /> User Management</li>
-                    <li><img src="/img/plus.png" /> Packages</li>
-                    <li><img src="/img/plus.png" /> Premium Support</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Every as in Professional Edition</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> User Management</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Packages</li>
+                    <li><img src="/static/a61b324128e9fcfd33672fd830c1c19f/c5cbb/plus.png" /> Premium Support</li>
                   </ul>
                   <div className="update">
                     <i className="bi bi-check"><img src="/img/check.png" /></i>
