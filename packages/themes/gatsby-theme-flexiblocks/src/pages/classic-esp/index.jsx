@@ -31,12 +31,9 @@ const IndexPage = props => {
       <Seo title='Software for Email Service Providers' description="Email service providers can have the Mumara ESP installed on their webserver, can configure it with all required resources to offer email services to its clients." />
       {/* Blocks */}
       <div className="classic-esp-main">
-        <div className="subheader-block">
-          <SubHeader content={content['subheader_classic_esp']} menuJustify='space-between' />
-        </div>
         <Header className="menu-light" content={content['header-light']} menuJustify='space-between' />
-        <Divider space='5' />
         <Container variant='full' sx={styles.heroContainer}>
+          <Divider space='5' />
           <Hero content={content['hero']} reverse />
         </Container>
         <Divider space='5' />
