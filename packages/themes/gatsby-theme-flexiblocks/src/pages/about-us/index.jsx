@@ -22,10 +22,9 @@ const Aboutus = props => {
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
   return (
-    <Layout theme={theme} {...props}>
+    <Layout className="aboutus-page-main" theme={theme} {...props}>
       <Seo title='About us | Mumara' />
       {/* Blocks */}
-      <div className="aboutus-page-main" >
         <Header content={content['header']} />
         <Team content={content['team']} />
         <Container className="avout-us-page" variant='full' sx={styles.heroContainer}>
@@ -33,13 +32,10 @@ const Aboutus = props => {
           <Divider space='5' />
           <Divider space='5' />
         </Container>
-
         <Container variant='narrow'>
             <Stats content={content['stats']} />
             <Divider space='5' />
         </Container>
-        
-        
         <Divider space='5' />
         <Container variant='full' sx={styles.heroContainer2}>
           <CompanyAdmin content={content['company_admin']} />
@@ -47,7 +43,6 @@ const Aboutus = props => {
           <AboutMission content={content['mission']} />
         </Container> 
         <Footer content={content['footer']} />
-      </div>
     </Layout>
   )
 }
