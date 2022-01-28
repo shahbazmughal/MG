@@ -1,0 +1,16 @@
+{
+  "text": [
+    {
+      "text": "Increase sales by an average of 150% by personalizing the user experience.",
+      "variant": "h2"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Read More",
+      "type": "PAGE",
+      "link": "/personalized-emails-up-sales-convergence-by-150/",
+      "variant": "dark"
+    }
+  ]
+}
