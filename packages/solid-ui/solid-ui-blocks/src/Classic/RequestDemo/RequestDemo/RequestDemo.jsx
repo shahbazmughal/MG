@@ -233,12 +233,12 @@ const RequestDemo = () => {
               <p>Product edition is a very suitable choice for bulk mailers who need to send multiple campaigns for themselves and their clients.</p>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             
-              <ul class="no-list">
-                <li><i class="bi bi-check"></i> High speed contacts importing</li>
-                <li><i class="bi bi-check"></i> Maximum Deliverability and Optimized Email Headers</li>
-                <li><i class="bi bi-check"></i> Integration with Adstation and PowerMTA</li>
-                <li><i class="bi bi-check"></i> Auto Server Setup (supports PowerMTA only)</li>
-                <li><i class="bi bi-check"></i> Advanced Reporting System</li>
+              <ul className="no-list">
+                <li><i className="bi bi-check"></i> High speed contacts importing</li>
+                <li><i className="bi bi-check"></i> Maximum Deliverability and Optimized Email Headers</li>
+                <li><i className="bi bi-check"></i> Integration with Adstation and PowerMTA</li>
+                <li><i className="bi bi-check"></i> Auto Server Setup (supports PowerMTA only)</li>
+                <li><i className="bi bi-check"></i> Advanced Reporting System</li>
               </ul>
             </div>
           </Box>
@@ -247,13 +247,13 @@ const RequestDemo = () => {
               <h3>ESP Edition</h3>
               <p>ESP edition of Mumara is the best choice for Email Service Providers and is a rapidly growing platform for the providers. It comes up with the complete suite of features that any ESP would want to implement for their clients.</p>
             
-              <ul class="no-list">
-                <li><i class="bi bi-check"></i> Advanced User Management</li>
-                <li><i class="bi bi-check"></i> Staff Roles Management</li>
-                <li><i class="bi bi-check"></i> Multi-Servers Management and IP(s) Assignment</li>
-                <li><i class="bi bi-check"></i> Authentication Wizard for Clients to Setup DKIM, Domain Keys, SPF and CNAME records.</li>
-                <li><i class="bi bi-check"></i> Supports Transactional Emailing (Compatible with PowerMTA)</li>
-                <li><i class="bi bi-check"></i> Advanced Graphical Reporting System</li>
+              <ul className="no-list">
+                <li><i className="bi bi-check"></i> Advanced User Management</li>
+                <li><i className="bi bi-check"></i> Staff Roles Management</li>
+                <li><i className="bi bi-check"></i> Multi-Servers Management and IP(s) Assignment</li>
+                <li><i className="bi bi-check"></i> Authentication Wizard for Clients to Setup DKIM, Domain Keys, SPF and CNAME records.</li>
+                <li><i className="bi bi-check"></i> Supports Transactional Emailing (Compatible with PowerMTA)</li>
+                <li><i className="bi bi-check"></i> Advanced Graphical Reporting System</li>
               </ul>
             </div>
           </Box>
@@ -395,9 +395,9 @@ const RequestDemo = () => {
                   <label className="label-control text-left">Maximum Emails Required to Deliver Per Hour</label> 
                 <Box variant='forms.field' className="emailsquotablock">  
                 
-                  <div class="kt-radio-inline">
+                  <div className="kt-radio-inline">
  
-                    <label for="lessthen10k" class="kt-radio">
+                    <label for="lessthen10k" className="kt-radio">
                       <input
                       type="radio"
                       id="lessthen10k"
@@ -409,7 +409,7 @@ const RequestDemo = () => {
                         <span></span>
                     </label>
 
-                    <label for="between10k50k" class="kt-radio">
+                    <label for="between10k50k" className="kt-radio">
                       <input
                       type="radio"
                       id="between10k50k"
@@ -421,7 +421,7 @@ const RequestDemo = () => {
                         <span></span>
                     </label>
 
-                    <label for="between50k250k" class="kt-radio">
+                    <label for="between50k250k" className="kt-radio">
                       <input
                       type="radio"
                       id="between50k250k"
@@ -433,7 +433,7 @@ const RequestDemo = () => {
                         <span></span>
                     </label>
 
-                    <label for="between250k1M" class="kt-radio">
+                    <label for="between250k1M" className="kt-radio">
                       <input
                       type="radio"
                       id="between250k1M"
@@ -445,7 +445,7 @@ const RequestDemo = () => {
                         <span></span>
                     </label>
 
-                    <label for="morethen1m" class="kt-radio">
+                    <label for="morethen1m" className="kt-radio">
                       <input
                       type="radio"
                       id="morethen1m"
@@ -465,9 +465,9 @@ const RequestDemo = () => {
                   <label className="label-control text-left">Looking For Emailing Servers?</label> 
                 <Box variant='forms.field' className="emailsquotablock">  
                 
-                  <div class="kt-radio-inline">
+                  <div className="kt-radio-inline">
  
-                    <label for="yes" class="kt-radio">
+                    <label for="yes" className="kt-radio">
                       <input
                       type="radio"
                       id="yes"
@@ -479,7 +479,7 @@ const RequestDemo = () => {
                         <span></span>
                     </label>
 
-                    <label for="no" class="kt-radio">
+                    <label for="no" className="kt-radio">
                       <input
                       type="radio"
                       id="no"
@@ -498,7 +498,7 @@ const RequestDemo = () => {
               <Box  style={styles.w100}>
                 <Box variant='forms.field' className="emailsquotablock">  
                 
-                  <label for="newsyes" class="kt-checkbox">
+                  <label for="newsyes" className="kt-checkbox">
                     <input
                     type="checkbox"
                     id="newsyes"

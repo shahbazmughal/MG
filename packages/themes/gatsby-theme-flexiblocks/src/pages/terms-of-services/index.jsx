@@ -33,7 +33,7 @@ const TermsServices = props => {
               <li>You cannot request the transfer of your account, or demand the installation of the license to a server/location of your choice.</li>
             </ol>
             <div className="css-1dsqwuv">
-              <h4 class="css-16ufw76">Self-Hosted <span class="css-14je365">Apps</span></h4>
+              <h4 className="css-16ufw76">Self-Hosted <span className="css-14je365">Apps</span></h4>
             </div>
             <ol>
               <li>Both MumaraClassic version (ESP/Pro) was always been and will remain self-hosted. Campaigns+ too has a self-hosted version. More apps or self-hosted versions of apps can later be released in future.</li>

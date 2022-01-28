@@ -193,7 +193,7 @@ const Contacts = () => {
           
           <h2 className="css-8idint"  style={styles.mb0}>Contact Us</h2>
           <div className="css-1xmmrjk" style={styles.mb30}>PLEASE COMPLETE AND SUBMIT THE SHORT FORM BELOW TO SCHEDULE A FREE, <br />BUSINESS CONSULTATION WITH ONE OF OUR EXPERTS.</div>
-          <form onSubmit={handleOnSubmit} method='post' class="contact-us-form">
+          <form onSubmit={handleOnSubmit} method='post' className="contact-us-form">
 
             <Box style={styles.wrow}>
 

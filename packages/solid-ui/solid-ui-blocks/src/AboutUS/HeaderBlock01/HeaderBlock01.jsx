@@ -73,57 +73,59 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                   />
                 </GLink>
               </Box>
-              {collection && (
-                <>
-                  <Box sx={styles.desktopMenu}>
-                    <Flex
-                      sx={{
-                        alignItems: `center`,
-                        justifyContent: menuJustify
-                      }}
-                    >
-                      {collection.map(
-                        ({ buttons }, index) =>
-                          buttons && (
-                            <Box
-                              key={`item-${index}`}
-                              sx={{
-                                '& + &': {
-                                  ml: 4
-                                }
-                              }}
-                            >
-                              <ContentButtons content={buttons} />
-                            </Box>
-                          )
-                      )}
-                    </Flex>
-                  </Box>
-                  <Box sx={styles.mobileMenu}>
-                    <Drawer buttonStyle={{ svg: { size: 32 } }}>
-                      {collection.map(
-                        ({ buttons }, index) =>
-                          buttons && (
-                            <Box
-                              key={`item-${index}`}
-                              sx={{
-                                fontSize: 3,
-                                '.button-group-link.level-1, button-group-link.level-1:visited': {
-                                  color: `headerActiveColor`
-                                }
-                              }}
-                            >
-                              <ContentButtons
-                                content={buttons}
-                                variant='vertical'
-                              />
-                            </Box>
-                          )
-                      )}
-                    </Drawer>
-                  </Box>
-                </>
-              )}
+              <Box>
+                {collection && (
+                  <>
+                    <Box sx={styles.desktopMenu}>
+                      <Flex
+                        sx={{
+                          alignItems: `center`,
+                          justifyContent: menuJustify
+                        }}
+                      >
+                        {collection.map(
+                          ({ buttons }, index) =>
+                            buttons && (
+                              <Box
+                                key={`item-${index}`}
+                                sx={{
+                                  '& + &': {
+                                    ml: 4
+                                  }
+                                }}
+                              >
+                                <ContentButtons content={buttons} />
+                              </Box>
+                            )
+                        )}
+                      </Flex>
+                    </Box>
+                    <Box sx={styles.mobileMenu}>
+                      <Drawer buttonStyle={{ svg: { size: 32 } }}>
+                        {collection.map(
+                          ({ buttons }, index) =>
+                            buttons && (
+                              <Box
+                                key={`item-${index}`}
+                                sx={{
+                                  fontSize: 3,
+                                  '.button-group-link.level-1, button-group-link.level-1:visited': {
+                                    color: `headerActiveColor`
+                                  }
+                                }}
+                              >
+                                <ContentButtons
+                                  content={buttons}
+                                  variant='vertical'
+                                />
+                              </Box>
+                            )
+                        )}
+                      </Drawer>
+                    </Box>
+                  </>
+                )}
+              </Box>
             </Flex>
           </Container>
         </Container>
