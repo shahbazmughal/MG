@@ -38,8 +38,6 @@ const IndexPage = props => {
       <div className="campaignplus-page">
         <Header content={content['header']} />
         <Container variant='full' sx={styles.heroContainer}>
-          <Divider space='5' />
-          <Divider space='5' />
           <Hero content={content['hero']} />
         </Container>
         <Divider space='3' />

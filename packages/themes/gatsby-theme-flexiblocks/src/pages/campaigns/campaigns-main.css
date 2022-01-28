@@ -1,6 +1,9 @@
 img {max-width:100%}
 .seo-block {display: none !important;}
 #gatsby-announcer {opacity: 0 !important;}
+.campaignplus-page #hero {
+    padding-top: 150px;
+}
 .campservice1 h3{
     margin-bottom: 20px;
     margin-top: 60px;
