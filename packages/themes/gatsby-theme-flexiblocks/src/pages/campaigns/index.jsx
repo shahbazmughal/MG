@@ -36,13 +36,10 @@ const IndexPage = props => {
       <Seo title='Email Marketing & Automation | Mumara Campaigns' description="Intelligently crafted features to ensure higher level of email engagement, Mumara Campaigns is available as Cloud and Self-Hosted platform." />
       {/* Blocks */}
       <div className="campaignplus-page">
-        <div className="subheader-block">
-            <SubHeader content={content['subheader_campaign']} menuJustify='space-between' />
-          </div>
         <Header content={content['header']} />
-        <Divider space='5' />
-        <Divider space='5' />
         <Container variant='full' sx={styles.heroContainer}>
+          <Divider space='5' />
+          <Divider space='5' />
           <Hero content={content['hero']} />
         </Container>
         <Divider space='3' />
