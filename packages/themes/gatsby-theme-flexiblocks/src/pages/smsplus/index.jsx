@@ -29,13 +29,12 @@ const IndexPage = props => {
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
   return (
-    <Layout theme={theme} {...props}>
+    <Layout className="smsplus-page" theme={theme} {...props}>
       <Seo title='Start SMS Service' description="SMSplus is the platform for the ones who are looking to start SMS service. It is combination of features necessary for SMS service providers to operate." />
       {/* Blocks */}
-      <div className="smsplus-page">
         <Header content={content['header-light']} menuJustify='space-between' />
-        <Divider space='5' />
         <Container variant='full' sx={styles.heroContainer}>
+          <Divider space='5' />
           <Hero content={content['hero']} reverse />
         </Container>
         <Divider space='5' />
@@ -65,7 +64,6 @@ const IndexPage = props => {
         <Main />
         <Base />
         <SmsplusSeo />
-      </div>
     </Layout>
   )
 }
