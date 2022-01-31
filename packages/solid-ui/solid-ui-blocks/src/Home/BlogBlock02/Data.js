@@ -32,6 +32,26 @@ function Data() {
         var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         return today.toLocaleDateString("en-US", options);
     }
+
+    var decodeEntities = (function() {
+        // this prevents any overhead from creating the object each time
+        var element = document.createElement('div');
+      
+        function decodeHTMLEntities (str) {
+          if(str && typeof str === 'string') {
+            // strip script/html tags
+            str = str.replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '');
+            str = str.replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '');
+            element.innerHTML = str;
+            str = element.textContent;
+            element.textContent = '';
+          }
+      
+          return str;
+        }
+      
+        return decodeHTMLEntities;
+    })();
        
 
     const [data, setData] = useState([])
@@ -58,14 +78,14 @@ function Data() {
             return pdata;
 
         }
-		getPosts()
+        getPosts()
             .then(pdata => {
                 setData(pdata);
                 setLoading(false);
                 posts.push(pdata);
             })
             .catch(err => console.log('Rejected: ', err.message))
-	} , []);
+    } , []);
     
     return (
         <div className="css-fdsoy5">
@@ -101,7 +121,7 @@ function Data() {
                                             }
                                         </div>
                                     </div>
-                                    <h5 className="css-19bvfwj" style={{textAlign: 'left'}}>{posts.title.rendered.slice(0, 55)}</h5>
+                                    <h5 className="css-19bvfwj" style={{textAlign: 'left'}}>{decodeEntities(posts.title.rendered.slice(0, 55))}</h5>
                                     <div className="css-1r912eh" style={{textAlign: 'left'}}>{String(posts.excerpt.rendered).replace(/<[^>]+>/gm, '').replace(/\&([^;]+);/g, "").slice(0, 150)+'...'}</div>
                                     <div className="css-jwtewi">
                                         <div className="css-zkfaav">
