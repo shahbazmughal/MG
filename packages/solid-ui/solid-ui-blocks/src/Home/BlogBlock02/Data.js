@@ -22,12 +22,15 @@ const styles = {
 function Data() {
 
     var convertDate = (d) => {
-        var parts2 = d.split("T");
-        var time = parts2[1];
-        var parts = parts2[0].split("-");
-        var months = {"01": "Jan","02": "Feb","03": "Mar","04": "Apr","05": "May","06": "June","07": "July","08": "Aug","09": "Sep","10": "Oct","11": "Nov","12": "Dec"};
+        // var parts2 = d.split("T");
+        // var time = parts2[1];
+        // var parts = parts2[0].split("-");
+        // var months = {"01": "Jan","02": "Feb","03": "Mar","04": "Apr","05": "May","06": "June","07": "July","08": "Aug","09": "Sep","10": "Oct","11": "Nov","12": "Dec"};
 
-        return parts[1]+" "+months[parts[1]]+", "+ parts[0];
+        // return parts[1]+" "+months[parts[1]]+", "+ parts[0];
+        var today  = new Date(d);
+        var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        return today.toLocaleDateString("en-US", options);
     }
        
 
