@@ -86,19 +86,19 @@ function index(props) {
                 <ol itemScope itemType="http://schema.org/BreadcrumbList" style={{display: 'none'}}>
                     <li itemProp="itemListElement" itemScope
                         itemType="http://schema.org/ListItem">
-                    <Link itemScope itemType="http://schema.org/Thing"
+                    <a itemScope itemType="http://schema.org/Thing"
                         itemProp="item" to="https://www.mumara.com" id="https://www.mumara.com">
                         <span itemProp="name">Mumara</span>
-                        <img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" alt="Mumara"/></Link>
+                        <img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" alt="Mumara"/></a>
                     <meta itemProp="position" content="1" />
                     </li>
                     ›
                     <li itemProp="itemListElement" itemScope
                         itemType="http://schema.org/ListItem">
-                    <Link itemScope itemType="http://schema.org/Thing"
+                    <a itemScope itemType="http://schema.org/Thing"
                         itemProp="item" to="https://www.mumara.com/campaigns/" id="https://www.mumara.com/campaigns/">
                         <span itemProp="name">Campaigns+</span>
-                        <img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" alt="Campaigns+ | Mumara"/></Link>
+                        <img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" alt="Campaigns+ | Mumara"/></a>
                     <meta itemProp="position" content="2" />
                     </li>
                 </ol>

@@ -114,9 +114,9 @@ function Data() {
                                             </div>
                                             <div className="css-1y5f7qa">
                                                 <div className="css-ng6b79" style={{textAlign: 'left'}}>
-                                                    <div className="css-dpe4lb">
+                                                    <Link className="css-dpe4lb">
                                                         <strong>{posts.yoast_head_json.schema['@graph'][6].image.caption}</strong>
-                                                    </div>
+                                                    </Link>
                                                 </div>
                                                 <div className="css-zkfaav">
                                                     <div className="css-f55aen">{convertDate(posts.date)} </div>

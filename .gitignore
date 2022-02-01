@@ -57,6 +57,9 @@ typings/
 # gatsby files
 .cache/
 public
+site/.cache
+site/public
+/site/public
 
 # Mac files
 .DS_Store
@@ -67,6 +70,9 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+package-lock.zip
+yarn.zip
 
 # Editors
 .vscode/*
