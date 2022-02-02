@@ -2,10 +2,7 @@
   "name": "elegantstack",
   "private": true,
   "license": "",
-  "workspaces": [
-    "packages/**",
-    "site"
-  ],
+  "workspaces": ["packages/**", "site"],
   "scripts": {
     "clean": "lerna clean",
     "release": "lerna version",
@@ -14,13 +11,10 @@
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.6.0",
     "lerna": "^4.0.0",
-    "prettier": "^2.3.1"
+    "prettier": "^2.3.2"
   },
   "engines": {
     "yarn": "^1.17.3",
     "node": ">=14.15.0"
-  },
-  "dependencies": {
-    "gatsby": "^4.6.0"
   }
 }

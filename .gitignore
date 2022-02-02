@@ -57,9 +57,6 @@ typings/
 # gatsby files
 .cache/
 public
-site/.cache
-site/public
-/site/public
 
 # Mac files
 .DS_Store
@@ -71,9 +68,6 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-package-lock.zip
-yarn.zip
-
 # Editors
 .vscode/*
 !.vscode/tasks.json
@@ -82,3 +76,5 @@ yarn.zip
 
 # firebase cache files
 .firebase/
+# Local Netlify folder
+.netlify

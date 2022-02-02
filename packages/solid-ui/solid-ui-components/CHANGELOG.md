@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.6.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-components@3.5.0...@elegantstack/solid-ui-components@3.6.0) (2021-11-15)
+
+
+### Features
+
+* upgrade to Gatsby v4 ([e481e4a](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/e481e4ab705d20c9d3daf3b2048f29eef308f420))
+
+
+### Bug Fixes
+
+* **solid-ui-components:** fix FormCheckbox not working ([9c1d401](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/9c1d40152721521f62b5b934df30f1bb72fee2c3))
+* **solid-ui-components:** fix map marker location ([30f4745](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/30f4745014cfc3aaacbc5dbd40bd78f63dd359bb))
+
+
+
+
+## [3.5.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-components@3.4.0...@elegantstack/solid-ui-components@3.5.0) (2021-09-07)
+
+
+### Features
+
+* upgrade Gatsby and dependencies ([d59a731](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/d59a731107925db1a03367d9a24d7c40dae622e6))
+
+
+### Bug Fixes
+
+* **solid-ui-components:** fix map marker position ([ebc99cc](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/ebc99ccde39b84b8b3e32c719a0213cdf09b2c62))
+
+
+
+
 ## [3.4.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-components@3.3.0...@elegantstack/solid-ui-components@3.4.0) (2021-08-19)
 
 

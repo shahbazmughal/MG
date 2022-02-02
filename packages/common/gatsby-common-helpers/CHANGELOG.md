@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-common-helpers@3.0.2...@elegantstack/gatsby-common-helpers@3.1.0) (2021-11-15)
+
+
+### Features
+
+* upgrade to Gatsby v4 ([e481e4a](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/e481e4ab705d20c9d3daf3b2048f29eef308f420))
+
+
+
+
 ### [3.0.2](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-common-helpers@3.0.1...@elegantstack/gatsby-common-helpers@3.0.2) (2021-05-19)
 
 
