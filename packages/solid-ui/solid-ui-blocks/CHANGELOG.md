@@ -3,21 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.3.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-blocks@3.2.0...@elegantstack/solid-ui-blocks@3.3.0) (2021-11-15)
-
-
-### Features
-
-* upgrade to Gatsby v4 ([e481e4a](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/e481e4ab705d20c9d3daf3b2048f29eef308f420))
-
-
-### Bug Fixes
-
-* **solid-ui-blocks:** fix footer menu overflow in mobile ([fd80f08](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/fd80f080097da9596cd103ff521a6c3045c9f706))
-
-
-
-
 ## [3.2.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-blocks@3.1.0...@elegantstack/solid-ui-blocks@3.2.0) (2021-06-17)
 
 

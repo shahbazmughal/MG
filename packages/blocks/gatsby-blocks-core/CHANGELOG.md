@@ -3,26 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.6.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-blocks-core@3.5.0...@elegantstack/gatsby-blocks-core@3.6.0) (2021-11-15)
-
-
-### Features
-
-* upgrade to Gatsby v4 ([e481e4a](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/e481e4ab705d20c9d3daf3b2048f29eef308f420))
-
-
-
-
-## [3.5.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-blocks-core@3.4.1...@elegantstack/gatsby-blocks-core@3.5.0) (2021-09-07)
-
-
-### Features
-
-* upgrade Gatsby and dependencies ([d59a731](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/d59a731107925db1a03367d9a24d7c40dae622e6))
-
-
-
-
 ### [3.4.1](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-blocks-core@3.4.0...@elegantstack/gatsby-blocks-core@3.4.1) (2021-08-03)
 
 
