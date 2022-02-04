@@ -68,7 +68,7 @@ const IndexPage = props => {
 
         <Main />
         <Base />
-        {/* <SmsSeo /> */}
+        <SmsSeo />
       </div>
     </Layout>
   )

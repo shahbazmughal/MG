@@ -45,7 +45,7 @@ function index(props) {
                         ],
                         "description": "Start sending sizeable amount of emails speedily right in the target inbox with MumaraClassic. Reliable self-hosted email marketing software.",
                         "brand": {
-                            "@type": "Thing",
+                            "@type": "Brand",
                             "name": "Mumara"
                         },
                         "review": {

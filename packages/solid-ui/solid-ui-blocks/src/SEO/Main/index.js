@@ -9,13 +9,35 @@ function index(props) {
                     {
                     "@context": "https://schema.org",
                     "@type": "Organization",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "NYC NY",
+                        "postalCode": "10017",
+                        "streetAddress": "708 3rd Ave"
+                      },
+                    "email": "sales(at)mumara.com",
+                    "member": [
+                        {
+                          "@type": "Organization"
+                        },
+                        {
+                          "@type": "Organization"
+                        }
+                    ],
+                    "alumni": [
+                        {
+                          "@type": "Person",
+                          "name": "Wasif Ahmed"
+                        }
+                    ],
                     "name": "Mumara",
+                    "telephone": "1 (844) 686 2721",
                     "alternateName": "Marketing Automation &amp; Customer Engagement Tools | Mumara",
                     "url": "https://www.mumara.com",
                     "logo": "https://www.mumara.com/assets/img/logo-dark.png",
                     "contactPoint": {
                         "@type": "ContactPoint",
-                        "telephone": "+1 (844) 686 – 2721",
+                        "telephone": "1 (844) 686 2721",
                         "contactType": "customer service"
                     },
                     "sameAs": [
@@ -26,6 +48,7 @@ function index(props) {
                         "https://www.linkedin.com/company/mumara"
                     ]
                     }
+
                 `}
             </script>
             <script type="application/ld+json">
@@ -95,7 +118,7 @@ function index(props) {
                     }
                 `}
             </script>
-            {/* <script src="/js/jquery.min.js"></script> */}
+            {/* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> */}
             {/* <script data-ad-client="ca-pub-7570269198350551" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
             {/* <script id='sbinit' src='https://dashboard.mumara.com/js/init.js'></script> */}
             <script>

@@ -45,7 +45,7 @@ function index(props) {
                         ],
                         "description": "Intelligently crafted features to ensure higher level of email engagement, CampaignsPlus centrally hosted SaaS edition of MumaraEmail.",
                         "brand": {
-                            "@type": "Thing",
+                            "@type": "Brand",
                             "name": "Mumara"
                         },
                         "review": {

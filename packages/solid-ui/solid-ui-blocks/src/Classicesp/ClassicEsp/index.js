@@ -45,7 +45,7 @@ function index(props) {
                         "sku": "0446310777",
                         "mpn": "925877",
                         "brand": {
-                            "@type": "Thing",
+                            "@type": "Brand",
                             "name": "Mumara"
                         },
                         "review": {
