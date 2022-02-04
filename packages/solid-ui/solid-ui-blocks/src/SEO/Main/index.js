@@ -7,6 +7,16 @@ function index(props) {
             <script type="application/ld+json">
                 {`
                     {
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        "url": "http://www.mumara.com",
+                        "logo": "https://www.mumara.com/assets/img/logo-dark.png"
+                    }
+                `}
+            </script>
+            <script type="application/ld+json">
+                {`
+                    {
                     "@context": "https://schema.org",
                     "@type": "Organization",
                     "address": {
@@ -35,6 +45,7 @@ function index(props) {
                     "alternateName": "Marketing Automation &amp; Customer Engagement Tools | Mumara",
                     "url": "https://www.mumara.com",
                     "logo": "https://www.mumara.com/assets/img/logo-dark.png",
+                    "Image": "https://www.mumara.com/assets/img/logo-dark.png",
                     "contactPoint": {
                         "@type": "ContactPoint",
                         "telephone": "1 (844) 686 2721",
