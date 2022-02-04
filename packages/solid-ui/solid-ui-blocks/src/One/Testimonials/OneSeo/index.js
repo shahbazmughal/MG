@@ -44,7 +44,7 @@ function index(props) {
                         ],
                         "description": "Intelligently crafted features to ensure higher level of email engagement, CampaignsPlus centrally hosted SaaS edition of MumaraEmail.",
                         "brand": {
-                            "@type": "Thing",
+                            "@type": "Brand",
                             "name": "Mumara"
                         },
                         "review": {
@@ -85,7 +85,7 @@ function index(props) {
             <ol itemScope itemType="http://schema.org/BreadcrumbList" style={{display: 'none'}}>
                 <li itemProp="itemListElement" itemScope
                     itemType="http://schema.org/ListItem">
-                <a itemScope itemType="http://schema.org/Thing"
+                <a itemScope itemType="http://schema.org/Brand"
                     itemProp="item" href="https://www.mumara.com" id="https://www.mumara.com">
                     <span itemProp="name">Mumara</span>
                     <img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" className="img-responsive" alt="Mumara"/></a>
@@ -94,7 +94,7 @@ function index(props) {
                 ›
                 <li itemProp="itemListElement" itemScope
                     itemType="http://schema.org/ListItem">
-                <a itemScope itemType="http://schema.org/Thing"
+                <a itemScope itemType="http://schema.org/Brand"
                     itemProp="item" href="https://www.mumara.com/campaigns/" id="https://www.mumara.com/campaigns/">
                     <span itemProp="name">Campaigns+</span>
                     <img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" className="img-responsive" alt="Campaigns+ | Mumara"/></a>

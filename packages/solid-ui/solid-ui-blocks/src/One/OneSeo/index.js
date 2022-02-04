@@ -78,7 +78,7 @@ function index(props) {
                     ›
                     <li itemProp="itemListElement" itemScope
                         itemType="http://schema.org/ListItem">
-                        <a itemScope itemType="http://schema.org/Thing"
+                        <a itemScope itemType="http://schema.org/Brand"
                         itemProp="item" href="https://www.mumara.com/one/">
                         <span itemProp="name">Mumara One</span>
                         <img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" alt="MumaraOne | Mumara"/></a>
