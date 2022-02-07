@@ -19,10 +19,10 @@ const campFeatures17= props => {
 
   return (
     <Layout theme={theme} {...props}>
-      <Seo title='SMS Packages | Mumara' description="Select desired slab according to the estimated monthly sending volume and get the most affordable message sending rates across the globe." keywords="sms topup,sms package,bulk sms service,bulk sms cost,sms online recharge"/>
+      <Seo title='Email Segmentation | Targeted Email Marketing' description="Use variety of filters to prepare your contact list for targeted email marketing and ensure better email engagement and response rate." keywords="customer segmentation,demographic segmentation,email list segmentation,behavioral segmentation,geographic segmentation"/>
       {/* Blocks */}
       <div className="subheader-block">
-        <SubHeader content={content['subheader_sms']} menuJustify='space-between' />
+        <SubHeader content={content['subheader_campaign']} menuJustify='space-between' />
       </div>
       <Header content={content['header']} />
       <Container className="classic-featuresBlk" variant='full' sx={styles.heroContainer}>

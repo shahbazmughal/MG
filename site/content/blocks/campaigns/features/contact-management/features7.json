@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Download invalid and **duplicate contacts** from Import History:",
+      "variant": "h2"
+    },
+    {
+      "text": "View the import history of any contact list and get access to the downloadable files of contacts which were duplicate or invalid at the time of import of that contact list.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

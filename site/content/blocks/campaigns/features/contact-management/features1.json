@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Classify the data by creating multiple **Contact Lists**:",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara allows users to create multiple contact lists for classification of the data. Make a separate list for each category of the customer base and let Mumara handle the rest. Get freedom from the hassle of managing contacts tardily and focus on what is ought to be sent to those contacts.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

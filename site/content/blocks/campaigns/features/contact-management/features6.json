@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Merge two **contact lists** into one: ",
+      "variant": "h2"
+    },
+    {
+      "text": "Use the “Merge into Another” feature of Mumara to merge a contact list into another one. It is a simple feature that makes it easy to move all the contacts from one list to another.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}
