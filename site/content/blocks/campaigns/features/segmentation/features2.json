@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Target local market by creating **location based Segment**:",
+      "variant": "h2"
+    },
+    {
+      "text": "Send contacts the relevant content instead of spamming them with material that is just not right for them. Create a segment based on their location from where they’re opening the emails and target them with the most relevant content. They might just be looking for it in their vicinity!",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

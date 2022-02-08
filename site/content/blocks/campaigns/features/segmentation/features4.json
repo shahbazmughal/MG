@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Send campaigns according to the **OS & browser** of recipients:",
+      "variant": "h2"
+    },
+    {
+      "text": "Browser & OS based Segmentation will help in creating a new segment that identifies users who open the email or click on one of the links in email from specific browsers and operating systems. ",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

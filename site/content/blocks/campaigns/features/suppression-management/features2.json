@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Preserve email deliverability with Domain Suppression:",
+      "variant": "h2"
+    },
+    {
+      "text": "Having deliverability issues with a certain domain or getting too many complaints? Suppress the whole domain to preserve the deliverability and domain reputation. This will help to continue sending campaigns to those who really want to receive them.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

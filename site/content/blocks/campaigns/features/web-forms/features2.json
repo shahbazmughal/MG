@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Setup “Thank you” email upon **subscription**",
+      "variant": "h2"
+    },
+    {
+      "text": "Create a flow of autoresponder as a “Thank You” email to be sent to the subscriber upon filling up the webform.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Automate the tasks with **Triggers**:",
+      "variant": "h2"
+    },
+    {
+      "text": "Define the event within Mumara to execute a specified task upon occurrence of that pre-defined event. Assign any task, from sending a broadcast to starting a drip campaign, through Triggers and let Mumara do the work.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

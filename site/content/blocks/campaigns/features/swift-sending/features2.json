@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Add custom **tracking domains** to mask the actual domain:",
+      "variant": "h2"
+    },
+    {
+      "text": "Optimize the professional look of emails by masking the actual domain names at the back of the images and hyperlinks. Add a custom tracking domain to make the hyperlinks look more secure and not spammy at all.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

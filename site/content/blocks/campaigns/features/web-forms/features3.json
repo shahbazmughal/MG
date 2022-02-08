@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Merge two **contact lists** into one: ",
+      "text": "Turn on **“Google Recaptcha”** verification",
       "variant": "h2"
     },
     {
-      "text": "Use the “Merge into Another” feature of Mumara to merge a contact list into another one. It is a simple feature that makes it easy to move all the contacts from one list to another.",
+      "text": "Keep the subscription list free from bots by enabling the google reCAPTCHA in the webform. This ensures that no spam bots subscribe to the list.",
       "variant": "medium"
     }
   ],

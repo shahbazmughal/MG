@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Suppress the IPs messing with Sender Reputation:",
+      "variant": "h2"
+    },
+    {
+      "text": "One of the ways to protect the sender reputation is by suppressing the IPs that cause the trouble. Simply identify the IPs that make complaints or keep bouncing the emails. Add those IPs to the suppression list.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

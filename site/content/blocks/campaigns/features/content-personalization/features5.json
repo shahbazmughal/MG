@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Use Data to predict the purchasing patterns:",
+      "variant": "h2"
+    },
+    {
+      "text": "Contact data is not just a piece of information. Utilize these data fields to maximize personalization. Use the location field from contact list or statistics to send the recipients, location based content.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

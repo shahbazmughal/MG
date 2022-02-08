@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Send the emails in **batches** for better speed:",
+      "variant": "h2"
+    },
+    {
+      "text": "Increase the email sending speed by choosing the emails to be sent in batches. This feature sends emails relatively faster than as sent in a loop.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Add contacts via **API**",
+      "variant": "h2"
+    },
+    {
+      "text": "Configure third-party applications and softwares with Mumara via a restful API to automatically add the contacts into Mumara from various platforms.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

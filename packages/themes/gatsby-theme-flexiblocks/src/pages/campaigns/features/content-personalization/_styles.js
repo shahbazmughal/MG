@@ -5,23 +5,38 @@
  *
  */
 
-export default {
-  heroContainer: {
-    position: `relative`,
-    pt: [6],
-    '::before': {
-      position: `absolute`,
-      content: `" "`,
-      width: `full`,
-      height: `100%`,
-      top: 0,
-      right: 0,
-      zIndex: -1,
-      bg: `white`
-    }
-  },
-  heroContainer2: {
-    position: `relative`,
-    pt: [0]
-  }
-}
+ import heroBg from './assets/contour-pattern.svg'
+
+ export default {
+   html: {
+     overflowX: 'hidden'
+   },
+   body : {
+     overflowX: 'hidden'
+   },
+   heroContainer: {
+     '::before': {
+       content: `" "`,
+       size: `full`,
+       position: `absolute`,
+       top: `-10%`,
+       left: 0,
+       zIndex: -1,
+       background: t =>
+         `url(${heroBg}) no-repeat center 0, linear-gradient(
+           180deg,
+           ${t.colors.alphaLighter} 0%,
+           ${t.colors.background} 100%
+         )`,
+       backgroundSize: `100%`,
+       bg: `omegaLighter`,
+       borderRadius: `xl`,
+       passing: `10px`
+     }
+   },
+   footer: {
+     display:"block",
+     overflowX: "hidden"
+   }
+ }
+ 

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Download the Web Form in **HTML**",
+      "variant": "h2"
+    },
+    {
+      "text": "Embed the webform into the website once it is created. Download the HTML file and paste it into the website source code.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

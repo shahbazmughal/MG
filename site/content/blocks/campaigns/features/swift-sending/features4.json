@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Boost sending speed** by assigning multiple threads:",
+      "variant": "h2"
+    },
+    {
+      "text": "Why use a single pathway to deliver the emails when multiple threads can be used to speed up the delivery process. Mumara enables one to set up multithreading to boost up email sending speed. ",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

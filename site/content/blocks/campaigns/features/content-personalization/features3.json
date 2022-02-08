@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Make tailor perfect content by using Dynamic Content Tags:",
+      "variant": "h2"
+    },
+    {
+      "text": "Forget about sending the same content to all the contacts. Dynamic Content Tags helps to send customized emails to the contacts. Set up criteria from within the customer data and if they qualify then the most relevant content is sent to them.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

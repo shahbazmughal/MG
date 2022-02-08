@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Create a **segment based on demographic** details of contacts:",
+      "variant": "h2"
+    },
+    {
+      "text": "The demographic knowledge of the customer base can help in creating more relevant content. Demographic Segmentation is a smart way to reach out to the contacts. Differentiate the campaigns based on age, gender, and interests by using the demographic details of the contacts.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

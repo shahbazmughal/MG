@@ -1,0 +1,56 @@
+{
+    "collection": [
+      {
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        },
+        "text": [
+          {
+            "text": "Make a segment based on the **Subscriber Status**:",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Based on the subscriber status, create multiple segments and send different segmented campaigns to the subscribers. If a subscriber is removed from a list, a segment can be created in Mumara to send an email campaign for re-subscription. It helps in keeping the contact list healthy."
+          }
+        ]
+      },
+      {
+        "text": [
+          {
+            "text": "**Export a segment** to create a separate list:",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Create a separate list of contacts by exporting a segment. Include the desired fields of data by choosing from custom fields, statistics and campaign details. Mumara also allows to replace the order of the data fields."
+          }
+        ],
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        }
+      },
+      {
+        "text": [
+          {
+            "text": "**Move a segment** to an existing list:",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Mumara makes it easy to move a segment to an existing list of contacts. Don’t worry about the duplicates as they can be simply updated, skipped, overwritten or deleted."
+          }
+        ],
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-dna.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        }
+      }
+    ]
+  }
+  

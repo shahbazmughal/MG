@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Find out the **best performing broadcast** with Split Test:",
+      "variant": "h2"
+    },
+    {
+      "text": "Not sure about which campaign will perform better? Find it out by conducting a split test. Send two campaigns simultaneously to the small equal chunks of the contact list and set up a winning criteria. Mumara will find the winning campaign and then send it to rest of the contact list.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

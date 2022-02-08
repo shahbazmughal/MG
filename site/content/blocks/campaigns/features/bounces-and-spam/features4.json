@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Process bounces over IMAP/POP",
+      "variant": "h2"
+    },
+    {
+      "text": "Allow Mumara to process bounced emails by authenticating bounce addresses over IMAP or POP connection. Mumara fetches the record via IMAP or POP connection from the bounce mailbox added to it and updates the statistics in the application.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

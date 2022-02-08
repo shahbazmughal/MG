@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Schedule the campaigns** ahead of time for future:",
+      "variant": "h2"
+    },
+    {
+      "text": "Plan to send the campaigns later? Schedule them ahead of time and never break a sweat. Choose any of the desired broadcasts to be sent via any one or multiple sending nodes at any specific date and time. No need to keep a check once the campaign is scheduled. Start working on the next one.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

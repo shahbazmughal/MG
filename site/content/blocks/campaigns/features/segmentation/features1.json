@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Create a **segment of contacts** who open & click the messages:",
+      "variant": "h2"
+    },
+    {
+      "text": "Forget about categorizing the contact list manually and automate the process with Mumara Campaigns. Sort the data with Mumara’s advanced statistical sense and create segments based on whether a recipient has opened or clicked the email. Keep on feeding them with content based on their interests.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

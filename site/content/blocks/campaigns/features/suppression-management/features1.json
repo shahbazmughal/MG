@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Suppress the problematic **email addresses**:",
+      "variant": "h2"
+    },
+    {
+      "text": "Don’t let any recipient destroy the sender reputation. Add the email addresses who’re making complaints to the suppression list so that they don’t receive future campaigns and the sender reputation remains intact.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

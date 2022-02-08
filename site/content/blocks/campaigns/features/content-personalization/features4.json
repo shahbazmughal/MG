@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Strike the recipients on target with Conditional Content:",
+      "variant": "h2"
+    },
+    {
+      "text": "Consumer behavior is an ever changing phenomenon. Setup a workflow by inlining the flowchart of conditions and let Mumara handle what to send according to those specified conditions. Say goodbye to the generic content and adapt to the tailored one.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

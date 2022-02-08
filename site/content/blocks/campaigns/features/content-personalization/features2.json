@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Use Spintags to bring variation in content:",
+      "variant": "h2"
+    },
+    {
+      "text": "Spintag makes the message and email styling more attractive to catch more eyeballs. Use various taglines in the subject line, from name, or anywhere in the message. Create various unique taglines to use in the message to show some variety in the broadcast.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

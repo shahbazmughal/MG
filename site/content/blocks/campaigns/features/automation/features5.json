@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Quickly get back to the customers by setting up **Autoresponders**:",
+      "variant": "h2"
+    },
+    {
+      "text": "A quick response to the visitor on a website can help in converting him to a client. Send pre-written welcome and confirmation messages by setting up autoresponders using the Triggers feature and boost up the conversion rate.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

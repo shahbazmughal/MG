@@ -1,0 +1,56 @@
+{
+    "collection": [
+      {
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        },
+        "text": [
+          {
+            "text": "**Send emails** in loops for consistent speed:",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Make the emails to be sent in a loop for more consistent speed. This feature feeds emails one by one to the sending node which makes it relatively slower."
+          }
+        ]
+      },
+      {
+        "text": [
+          {
+            "text": "Integrate with the Top **Sending Nodes**:",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Mumara allows integration with the top sending nodes, which makes it easier to manage campaigns. Connect any of the market leading sending nodes including Amazon, SendGrid, SparkPost and many more via SMTP or API."
+          }
+        ],
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        }
+      },
+      {
+        "text": [
+          {
+            "text": "Choose the **preferred Sending Node** selection method:",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "If multiple sending nodes are chosen for the purpose of delivering email campaigns then a preferred selection method of sending nodes can be picked. Mumara allows choosing between Random & Sequential selection of Sending Nodes. Random selection picks up the sending nodes in a random manner while sequential picks up the next one in order."
+          }
+        ],
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-dna.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        }
+      }
+    ]
+  }
+  

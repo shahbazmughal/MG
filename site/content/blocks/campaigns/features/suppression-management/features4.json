@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Resync the suppression list with contacts",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara allows the resynchronization of the suppression table with the contact list after any of the contacts is removed or added either from the suppression or the contact list. This keeps the lists refreshed. ",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

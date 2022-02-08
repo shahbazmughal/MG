@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Setup Custom **Bounce Rules**",
+      "variant": "h2"
+    },
+    {
+      "text": "Setup custom bounce rules based on the Bounce Code, Reason or Detail and categorize them as Hard or Soft. Assign multiple conditions in a single bounce rule or make a separate rule for each condition.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

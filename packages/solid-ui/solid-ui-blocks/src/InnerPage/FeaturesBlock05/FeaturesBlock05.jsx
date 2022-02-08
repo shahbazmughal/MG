@@ -39,7 +39,6 @@ const FeaturesBlock05 = ({ content: { text, collection, icon2 } }) => (
     </Box>
     {collection && (
       <>
-        <Divider />
         <Flex sx={{ flexWrap: `wrap` }} m={-3}>
           {collection.map(
             ({ text, icon, collection, buttons, container }, index) => (
@@ -54,7 +53,7 @@ const FeaturesBlock05 = ({ content: { text, collection, icon2 } }) => (
                   variant='cards.paper'
                   sx={{ height: `full` }}
                 >
-                  <Icon content={icon} size='md' mr='3' mb='3' />
+                  <Icon content={icon} size='md' mr='3'  />
                   <ContentText content={text?.[0]} sx={styles.sheading} />
                   <Flex sx={{ alignItems: `center`, flexWrap: `wrap` }}>
                     <ContentText
