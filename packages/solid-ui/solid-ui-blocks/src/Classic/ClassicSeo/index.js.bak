@@ -106,7 +106,7 @@ function index(props) {
                     <meta itemProp="mpn" content="925876" />
                     <span itemProp="brand">Mumara</span>
                     <span itemProp="name">MumaraClassic</span>
-                    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a69688c148936313d2074b15-|49"></script><img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" alt="MumaraClassic" data-pagespeed-url-hash="3376842629" onLoad="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a69688c148936313d2074b15-|49"></script><img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" alt="MumaraClassic" data-pagespeed-url-hash="3376842629" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                     <span itemProp="description">Start sending sizeable amount of emails speedily right in the target inbox with MumaraClassic. Reliable self-hosted email marketing software.
                     </span>
                     Product #: <span itemProp="mpn">1</span>

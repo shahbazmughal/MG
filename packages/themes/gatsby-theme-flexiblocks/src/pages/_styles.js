@@ -29,8 +29,8 @@ export default {
       background: t =>
         `url(${heroBg3}) no-repeat center 0, linear-gradient(
           180deg,
-          ${t.colors.alphaLighter} 10%,
-          ${t.colors.background2} 100%
+          ${`#cfe8e6`} 0%,
+          ${`#FFFFFF`} 100%
         )`,
       backgroundSize: `100%`
     }
