@@ -19,8 +19,8 @@ export default {
       borderRadius: `xl`,
       background: `linear-gradient(
         180deg,
-        #f7f9fe 0%,
-        #f4f4f8 100%
+        ${`#cfe8e6`} 0%,
+          ${`#FFFFFF`} 100%
       )`
     }
   },
