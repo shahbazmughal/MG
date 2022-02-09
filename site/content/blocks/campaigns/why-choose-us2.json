@@ -24,7 +24,15 @@
         "src": "../../assets/flexiblocks/icons/bx-directions.svg",
         "bg": "#D3E7FE",
         "color": "#276BF0"
-      }
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/campaigns/features/automation/",
+          "variant": "links.normal"
+        }
+      ]
     },
     {
       "text": [
@@ -41,7 +49,15 @@
         "src": "../../assets/flexiblocks/icons/bx-rocket.svg",
         "bg": "#FEFAD6",
         "color": "#F4D133"
-      }
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/campaigns/features/automation/",
+          "variant": "links.normal"
+        }
+      ]
     },
     {
       "text": [
@@ -58,7 +74,15 @@
         "src": "../../assets/flexiblocks/icons/bx-chat.svg",
         "bg": "#FEE8D1",
         "color": "#F7491D"
-      }
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/campaigns/features/automation/",
+          "variant": "links.normal"
+        }
+      ]
     },
     {
       "text": [
@@ -75,7 +99,15 @@
         "src": "../../assets/flexiblocks/icons/bx-dna.svg",
         "bg": "#EBFDDA",
         "color": "#64DB43"
-      }
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/campaigns/features/automation/",
+          "variant": "links.normal"
+        }
+      ]
     }
   ]
 }

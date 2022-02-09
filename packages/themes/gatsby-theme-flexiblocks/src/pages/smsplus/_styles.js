@@ -22,10 +22,10 @@ export default {
       zIndex: -1,
       borderRadius: `xl`,
       background: t => `radial-gradient(
-          circle,
-          ${t.colors.beta2} 0%,
-          ${t.colors.alpha2} 100%
-        )`,
+        circle,
+        ${`#0f977e`} 0%,
+        ${`#077661`} 100%
+      )`,
       backgroundSize: `100%`,
       backgroundPosition: `650px bottom`
     },
@@ -41,6 +41,7 @@ export default {
       maxHeight: 600,
       background: `url(${circle}) no-repeat center center`,
       backgroundSize: `contain`,
+      filter: `brightness(60%) sepia(100) saturate(100) hue-rotate(40deg)`,
       opacity: 0.1
     }
   },
@@ -58,10 +59,10 @@ export default {
       borderRadius: `xl`,
       transform: `skew(23deg, 0deg) rotate(-10deg)`,
       background: t => `radial-gradient(
-          circle,
-          ${t.colors.beta2} 0%,
-          ${t.colors.alpha2} 100%
-        )`,
+        circle,
+        ${`#0f977e`} 0%,
+        ${`#077661`} 100%
+      )`,
       backgroundSize: `100%`,
       backgroundPosition: `650px bottom`
     },
@@ -76,7 +77,7 @@ export default {
       size: '600px',
       background: `url(${circle}) no-repeat center center`,
       backgroundSize: `cover`,
-      filter: `brightness(60%) sepia(100) saturate(100) hue-rotate(25deg)`,
+      filter: `brightness(60%) sepia(100) saturate(100) hue-rotate(40deg)`,
       opacity: 0.1
     }
   },

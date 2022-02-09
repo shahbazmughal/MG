@@ -17,7 +17,7 @@
     {
       "src": "../../assets/flexiblocks/home/homebanner1.png",
       "alt": "Mumara Email Delivery",
-      "objectPosition": "center bottom"
+      "objectposition": "center bottom"
     },
     {
       "src": "../../assets/flexiblocks/home/homebanner3.png",

@@ -6,7 +6,7 @@ const styles = {
     imgStyle: {
         width: `100%`,
         height: 240,
-        objectFit: "cover",
+        objectfit: "cover",
         borderRadius: "6px"
     },
     flex0 : {

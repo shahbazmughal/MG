@@ -38,7 +38,7 @@ const FeaturesBlock04 = ({
         <Divider />
         <ContentContainer content={container} variant='cards.paper'>
           <Flex sx={{ flexWrap: `wrap` }}>
-            {collection?.map(({ text, icon }, index) => (
+            {collection?.map(({ text, icon, buttons }, index) => (
               <Box key={`item-${index}`} css={css(styles.listItem)}>
                 {text?.[0] && (
                   <Flex sx={{ alignItems: `center`, mb: 3 }}>

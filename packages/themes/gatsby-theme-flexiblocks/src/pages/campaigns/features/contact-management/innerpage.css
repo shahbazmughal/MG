@@ -54,7 +54,12 @@
 .innerpage-section.img-left .css-18dkrwv .css-16474cg {
     text-align: left;
 }
-
+#features .css-1hkoyk9 {
+    height: 100%;
+}
+#featuresmore .css-lyksdo {
+    margin-bottom: 15px !important;
+}
 
 @media (min-width: 768px) {
     .container {

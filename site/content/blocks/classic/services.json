@@ -4,7 +4,7 @@
       "icon": {
         "src": "../../assets/flexiblocks/icons/bx-analyse.svg",
         "bg": "omegaLighter",
-        "color": "beta"
+        "color": "alpha"
       },
       "text": [
         {
@@ -39,7 +39,7 @@
       "icon": {
         "src": "../../assets/flexiblocks/icons/bx-rocket.svg",
         "bg": "omegaLighter",
-        "color": "beta"
+        "color": "alpha"
       },
       "buttons": [
         {
@@ -64,7 +64,7 @@
       "icon": {
         "src": "../../assets/flexiblocks/icons/bx-directions.svg",
         "bg": "omegaLighter",
-        "color": "beta"
+        "color": "alpha"
       },
       "buttons": [
         {

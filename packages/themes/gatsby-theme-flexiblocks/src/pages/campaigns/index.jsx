@@ -20,6 +20,7 @@ import FeatureLeft from '@solid-ui-blocks/Campaigns/FeatureLeft'
 import FeatureRight from '@solid-ui-blocks/Campaigns/FeatureRight'
 import FeatureThree from '@solid-ui-blocks/Campaigns/FeaturesBlock07'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import Buttons from '@solid-ui-blocks/Home/ButtonsBlock01'
 import Main from '@solid-ui-blocks/SEO/Main'
 import Base from '@solid-ui-blocks/SEO/Base'
 import CampaignsSeo from '@solid-ui-blocks/Campaigns/CampaignsSeo'
@@ -104,6 +105,7 @@ const IndexPage = props => {
         <Divider space='5' />
         <div className='campservice6'>
           <WhyChooseUs2 content={content['whychooseus3']} />
+          <Buttons content={content['buttons']} />
         </div>
 
         <Divider space='5' />

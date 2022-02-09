@@ -23,8 +23,8 @@ export default {
       borderRadius: `xl`,
       background: t => `radial-gradient(
           circle,
-          ${t.colors.beta2} 0%,
-          ${t.colors.alpha2} 100%
+          ${`#0f977e`} 0%,
+          ${`#077661`} 100%
         )`,
       backgroundSize: `100%`,
       backgroundPosition: `650px bottom`
@@ -41,6 +41,7 @@ export default {
       maxHeight: 600,
       background: `url(${circle}) no-repeat center center`,
       backgroundSize: `contain`,
+      filter: `brightness(60%) sepia(100) saturate(100) hue-rotate(40deg)`,
       opacity: 0.1
     }
   },

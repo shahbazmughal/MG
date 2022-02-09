@@ -14,6 +14,7 @@ import Hero from '@solid-ui-blocks/InnerPage/HeroBlock02'
 import FeatureLeft from '@solid-ui-blocks/InnerPage/FeatureLeft'
 import FeatureRight from '@solid-ui-blocks/InnerPage/FeatureRight'
 import Services from '@solid-ui-blocks/InnerPage/FeaturesBlock05'
+import Features from '@solid-ui-blocks/Smsplus/FeaturesBlock02'
 import theme from './_theme'
 import styles from './_styles'
 import './innerpage.css'
@@ -49,20 +50,14 @@ const campFeatures05 = props => {
         <div className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features4']} />
         </div>
+
+        <Divider space='5' />
+        <Container variant='full' sx={styles.featuresContainer}>
+          <Features content={content['features']} />
+        </Container>
+        <Divider space='5' />
         <div className="innerpage-section bg-white img-left">
           <Services content={content['featuresmore']} />
-        </div>
-        <div className="innerpage-section bg-light img-left">
-          <FeatureRight content={content['features8']} />
-        </div>
-        <div className="innerpage-section bg-white img-right">
-          <FeatureLeft content={content['features9']} />
-        </div>
-        <div className="innerpage-section bg-light img-left">
-          <FeatureRight content={content['features10']} />
-        </div>
-        <div className="innerpage-section bg-white img-right">
-          <FeatureLeft content={content['features11']} />
         </div>
         
         <Footer content={content['footer']} />

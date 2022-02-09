@@ -4,7 +4,7 @@
       "icon": {
         "src": "../../assets/flexiblocks/icons/bx-user-voice.svg",
         "bg": "omegaLighter",
-        "color": "beta"
+        "color": "alpha"
       },
       "text": [
         {
@@ -39,7 +39,7 @@
       "icon": {
         "src": "../../assets/flexiblocks/icons/bx-comment-detail.svg",
         "bg": "omegaLighter",
-        "color": "beta"
+        "color": "alpha"
       },
       "buttons": [
         {
@@ -64,7 +64,7 @@
       "icon": {
         "src": "../../assets/flexiblocks/icons/bx-dna.svg",
         "bg": "omegaLighter",
-        "color": "beta"
+        "color": "alpha"
       },
       "buttons": [
         {

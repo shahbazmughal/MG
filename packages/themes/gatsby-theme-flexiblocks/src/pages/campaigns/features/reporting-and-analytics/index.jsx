@@ -13,6 +13,7 @@ import Base from '@solid-ui-blocks/SEO/Base'
 import Hero from '@solid-ui-blocks/InnerPage/HeroBlock02'
 import FeatureLeft from '@solid-ui-blocks/InnerPage/FeatureLeft'
 import FeatureRight from '@solid-ui-blocks/InnerPage/FeatureRight'
+import Features from '@solid-ui-blocks/Smsplus/FeaturesBlock02'
 import Services from '@solid-ui-blocks/InnerPage/FeaturesBlock05'
 import theme from './_theme'
 import styles from './_styles'
@@ -40,6 +41,21 @@ const campFeaturesReportingAnalytics = props => {
         <div className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features1']} />
         </div>
+        <div className="innerpage-section bg-light img-left">
+          <FeatureRight content={content['features2']} />
+        </div>
+        <div className="innerpage-section bg-white img-right">
+          <FeatureLeft content={content['features3']} />
+        </div>
+        <div className="innerpage-section bg-light img-left">
+          <FeatureRight content={content['features4']} />
+        </div>
+        <Divider space='5' />
+        <Container variant='full' sx={styles.featuresContainer}>
+          <Features content={content['features']} />
+        </Container>
+        <Divider space='5' />
+        <Divider space='5' />
         
         <Footer content={content['footer']} />
         <Main />

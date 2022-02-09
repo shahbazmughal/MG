@@ -6,6 +6,7 @@
  */
 
 import heroBg from './assets/contour-pattern.svg'
+import circle from './assets/circle.png'
 
 export default {
   html: {

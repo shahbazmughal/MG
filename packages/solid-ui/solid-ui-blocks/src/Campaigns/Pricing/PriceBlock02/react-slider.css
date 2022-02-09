@@ -105,8 +105,8 @@ a.btn.btn-ohb:hover {
 }
 .slider-packages {
     padding: 15px;
-    background: #f4f6ff;
-    border: 1px solid #ebefff;
+    background: #f2f2f2;
+    border: 1px solid #f0f0f0;
 }
 
 .rangeslider__handle:before {

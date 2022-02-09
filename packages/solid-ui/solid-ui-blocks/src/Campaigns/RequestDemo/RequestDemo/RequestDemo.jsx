@@ -356,9 +356,9 @@ const RequestDemo = () => {
                   <label className="label-control text-left">Maximum Emails Required to Deliver Per Hour</label> 
                 <Box variant='forms.field' className="emailsquotablock">  
                 
-                  <div class="kt-radio-inline">
+                  <div className="kt-radio-inline">
  
-                    <label for="lessthen10k" class="kt-radio">
+                    <label for="lessthen10k" className="kt-radio">
                       <input
                       type="radio"
                       id="lessthen10k"
@@ -370,7 +370,7 @@ const RequestDemo = () => {
                         <span></span>
                     </label>
 
-                    <label for="between10k50k" class="kt-radio">
+                    <label for="between10k50k" className="kt-radio">
                       <input
                       type="radio"
                       id="between10k50k"
@@ -382,7 +382,7 @@ const RequestDemo = () => {
                         <span></span>
                     </label>
 
-                    <label for="between50k250k" class="kt-radio">
+                    <label for="between50k250k" className="kt-radio">
                       <input
                       type="radio"
                       id="between50k250k"
@@ -394,7 +394,7 @@ const RequestDemo = () => {
                         <span></span>
                     </label>
 
-                    <label for="between250k1M" class="kt-radio">
+                    <label for="between250k1M" className="kt-radio">
                       <input
                       type="radio"
                       id="between250k1M"
@@ -406,7 +406,7 @@ const RequestDemo = () => {
                         <span></span>
                     </label>
 
-                    <label for="morethen1m" class="kt-radio">
+                    <label for="morethen1m" className="kt-radio">
                       <input
                       type="radio"
                       id="morethen1m"
@@ -426,9 +426,9 @@ const RequestDemo = () => {
                   <label className="label-control text-left">Looking For Emailing Servers?</label> 
                 <Box variant='forms.field' className="emailsquotablock">  
                 
-                  <div class="kt-radio-inline">
+                  <div className="kt-radio-inline">
  
-                    <label for="yes" class="kt-radio">
+                    <label for="yes" className="kt-radio">
                       <input
                       type="radio"
                       id="yes"
@@ -440,7 +440,7 @@ const RequestDemo = () => {
                         <span></span>
                     </label>
 
-                    <label for="no" class="kt-radio">
+                    <label for="no" className="kt-radio">
                       <input
                       type="radio"
                       id="no"
@@ -459,7 +459,7 @@ const RequestDemo = () => {
               <Box  style={styles.w100}>
                 <Box variant='forms.field' className="emailsquotablock">  
                 
-                  <label for="newsyes" class="kt-checkbox">
+                  <label for="newsyes" className="kt-checkbox">
                     <input
                     type="checkbox"
                     id="newsyes"

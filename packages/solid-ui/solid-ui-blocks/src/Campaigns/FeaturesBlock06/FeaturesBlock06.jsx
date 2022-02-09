@@ -35,7 +35,7 @@ const styles = {
 const FeaturesBlock06 = ({ content: { text, collection, icon2 } }) => (
   <Container>
     <Box sx={{ textAlign: `center` }}>
-      <ContentText content={text} sx={{backgroundColor:`#007bff`, color:`#FFF`, padding: `7px 0`}} />
+      <ContentText content={text} sx={{backgroundColor:`#0f977e`, color:`#FFF`, padding: `7px 0`}} />
     </Box>
     {collection && (
       <>

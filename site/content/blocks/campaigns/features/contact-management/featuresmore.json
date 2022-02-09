@@ -8,24 +8,24 @@
         },
         "text": [
           {
-            "text": "**Move Contact List** from one group to another:",
+            "text": "Create **multiple copies** of same list",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "Mumara Campaigns allows changing the group of any list by using the “Move to Another” feature. This way any list can be moved to any of the desired or more suitable group without the hassle."
+            "text": "Make various copies of a list for multiple reasons. Mumara makes it easy to duplicate or triplicate a contact list by using the “make a copy” feature. Create as many copies as required."
           }
         ]
       },
       {
         "text": [
           {
-            "text": "Merge two **contact lists** into one:",
+            "text": "Delete the duplicates by using **Dedupe**",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "Use the “Merge into Another” feature of Mumara to merge a contact list into another one. It is a simple feature that makes it easy to move all the contacts from one list to another."
+            "text": "Use the “Dedupe List” feature in order to delete contacts from the selected or other than selected list, that are matching in various lists."
           }
         ],
         "icon": {
@@ -37,12 +37,12 @@
       {
         "text": [
           {
-            "text": "Download invalid and **duplicate contacts** from Import History:",
+            "text": "Refresh the list by using **“Re-count Subscribers”** option",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "View the import history of any contact list and get access to the downloadable files of contacts which were duplicate or invalid at the time of import of that contact list."
+            "text": "Make Mumara refresh the contact list after any contact is added to or deleted from it by using the feature “Re-count Subscribers”."
           }
         ],
         "icon": {

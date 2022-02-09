@@ -1,0 +1,76 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "See the **Click Stats** in detail",
+          "variant": "h4"
+        },
+        {
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "#FFF2DD",
+        "color": "#FF9655"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Access the **unsubscribed** contacts",
+          "variant": "h4"
+        },
+        {
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "#FEE9E3",
+        "color": "#F87488"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Get **bounce details** with assigned rules",
+          "variant": "h4"
+        },
+        {
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "#E5FCF3",
+        "color": "#6DC9C8"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Find the best element through **A/B test**",
+          "variant": "h4"
+        },
+        {
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "#F5E7FE",
+        "color": "#B887F8"
+      },
+      "buttons": [
+        {
+          "text": "Learn More",
+          "type": "PAGE",
+          "link": "/campaigns/features/dashboard-statistics",
+          "variant": "primary-light"
+        }
+      ]
+    }
+  ]
+}

@@ -49,7 +49,7 @@ const ContentImages = ({
   content: { images },
   reverse,
   imagePosition,
-  objectPosition,
+  objectposition,
   imageFit,
   imageEffect,
   loading,
@@ -71,8 +71,8 @@ const ContentImages = ({
         <ImageComponent
           image={images[0]}
           loading={loading}
-          objectFit={imageFit}
-          objectPosition={objectPosition}
+          objectfit={imageFit}
+          objectposition={objectposition}
           sx={sx}
         />
       </Reveal>

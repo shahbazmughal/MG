@@ -68,7 +68,7 @@ const styles = {
     borderColor: `omegaLighter`,
     boxSizing: `content-box`,
     img: {
-      objectPosition: 'top center !important'
+      objectposition: 'top center !important'
     }
   }
 }

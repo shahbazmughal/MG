@@ -2,7 +2,7 @@ import image from '../../assets/placeholder.jpg'
 
 const placeholderImage = {
   isPlaceholder: true,
-  objectFit: 'none',
+  objectfit: 'none',
   medium: {
     src: image,
     maxWidth: 600,

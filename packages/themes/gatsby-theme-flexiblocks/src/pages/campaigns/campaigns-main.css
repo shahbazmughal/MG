@@ -58,7 +58,11 @@ img {max-width:100%}
     margin: 0 auto 15px;
 }
 
-.css-1qe1pxe .css-1fdx6ps {
+.campservice6 #buttons .css-jgj9px {
+    margin-top: 0;
+}
+
+/* .css-1qe1pxe .css-1fdx6ps {
     display: none;
 }
 .campaignplus-page .css-vurnku .css-4dotzj .css-aaitl3 {
@@ -67,7 +71,7 @@ img {max-width:100%}
 
 .campaignplus-page .css-18dkrwv .css-aaitl3 {
     display: none;
-}
+} */
 
 .campaignplus-page #team a.button-group-button.css-18ateur {
     display: grid;
