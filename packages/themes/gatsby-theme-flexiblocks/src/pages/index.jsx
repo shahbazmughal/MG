@@ -30,6 +30,8 @@ import theme from './_theme'
 import styles from './_styles'
 import './home.css'
 
+import ico from './assets/favicon.ico'
+
 const HomePage = props => {
   const { allBlockContent } = props.data
     const content = normalizeBlockContentNodes(allBlockContent?.nodes)
@@ -48,7 +50,7 @@ const HomePage = props => {
 
 return (
   <Layout theme={theme} {...props}>
-    <Seo title='Marketing Automation & Customer Engagement Tools' description="Mumara is collection of SaaS applications and customer engagement tools to fuel your multi-channel marketing strategy." keywords="" image2="https://www.mumara.com/wp-content/uploads/2019/03/Mumara-Feature-Image.jpg" />
+    <Seo title='Marketing Automation & Customer Engagement Tools' description="Mumara is collection of SaaS applications and customer engagement tools to fuel your multi-channel marketing strategy." keywords="" image2="https://www.mumara.com/wp-content/uploads/2019/03/Mumara-Feature-Image.jpg" icon={`${ico}`} />
       {/* Blocks */}
       <span className="homepage-main">
         <Header content={content['header']} />

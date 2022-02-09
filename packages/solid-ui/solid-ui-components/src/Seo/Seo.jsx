@@ -12,6 +12,7 @@ const Seo = ({
   thumbnail,
   image,
   image2,
+  icon,
   siteUrl
 }) => {
   const site = useSiteMetadata()
@@ -56,7 +57,7 @@ const Seo = ({
     { name: 'twitter:description', content: description },
     { name: 'twitter:creator', content: twitter.url },
     { name: 'twitter:image', content: image2 || "https://mumara-final.netlify.app/Mumara-Feature-Image.jpg" },
-    { name: 'favicon', rel: 'icon', type: 'image/x-icon', href: "https://mumara-final.netlify.app/favicon.ico" }
+    { name: 'favicon', rel: 'icon', type: 'image/ico', href: icon || "https://mumara-final.netlify.app/favicon.ico?v=000786" }
   ]
 
   if (keywords && keywords.length > 0) {
