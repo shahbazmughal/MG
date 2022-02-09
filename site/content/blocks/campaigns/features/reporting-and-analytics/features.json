@@ -67,7 +67,7 @@
         {
           "text": "Learn More",
           "type": "PAGE",
-          "link": "/campaigns/features/dashboard-statistics",
+          "link": "/campaigns/features/ab-testing",
           "variant": "primary-light"
         }
       ]

@@ -56,7 +56,7 @@ const Seo = ({
     { name: 'twitter:description', content: description },
     { name: 'twitter:creator', content: twitter.url },
     { name: 'twitter:image', content: image2 || "https://mumara-final.netlify.app/Mumara-Feature-Image.jpg" },
-    { name: 'favicon', rel: 'shortcut icon' , content: "https://mumara-final.netlify.app/favicon.ico" }
+    { name: 'favicon', rel: 'shortcut icon' , content: "https://a.mumara.com/lp1/images/favicon.ico" }
   ]
 
   if (keywords && keywords.length > 0) {
