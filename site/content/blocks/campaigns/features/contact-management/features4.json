@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Get relevant by using **Custom Fields**:",
+      "text": "Get relevant by using **Custom Fields**",
       "variant": "h2"
     },
     {
@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/custom-fields.svg",
       "radius": "lg",
       "alt": "Importing",
       "effects": ["fadeInLeft", "float"]

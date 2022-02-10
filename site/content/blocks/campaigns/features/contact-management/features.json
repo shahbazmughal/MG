@@ -11,7 +11,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
         "bg": "#FFF2DD",
         "color": "#FF9655"
       }
@@ -27,7 +27,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
         "bg": "#FEE9E3",
         "color": "#F87488"
       }

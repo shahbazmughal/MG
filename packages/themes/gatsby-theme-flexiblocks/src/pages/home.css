@@ -1,5 +1,6 @@
 ::selection {
-    background: rgb(33,150,243 ,.3);
+    background: rgb(230 255 251);
+    color: #000000;
 }
 img {max-width:100%}
 .seo-block {display: none !important;}

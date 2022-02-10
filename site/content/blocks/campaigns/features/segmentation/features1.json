@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Create a **segment of contacts** who open & click the messages:",
+      "text": "Create a **segment of contacts** who open & click the messages",
       "variant": "h2"
     },
     {
@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/segment-contacts.svg",
       "radius": "lg",
       "alt": "Flexible",
       "effects": ["fadeInLeft", "float"]

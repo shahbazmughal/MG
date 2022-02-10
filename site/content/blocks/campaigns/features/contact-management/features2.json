@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Upload Contacts with the **Rocket Speed**:",
+      "text": "Upload Contacts with the **Rocket Speed**",
       "variant": "h2"
     },
     {
@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/rocket-upload.svg",
       "radius": "lg",
       "alt": "Organized",
       "effects": ["fadeInLeft", "float"]

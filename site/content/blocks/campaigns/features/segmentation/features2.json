@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Target local market by creating **location based Segment**:",
+      "text": "Target local market by creating **location based Segment**",
       "variant": "h2"
     },
     {
@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/segment-location.svg",
       "radius": "lg",
       "alt": "Organized",
       "effects": ["fadeInLeft", "float"]

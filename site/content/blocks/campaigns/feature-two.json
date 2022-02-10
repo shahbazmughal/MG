@@ -20,7 +20,7 @@
       "text": "Learn more   ➜",
       "type": "PAGE",
       "link": "/campaigns/features/content-personalization/",
-      "variant": "links.normal"
+      "variant": "primary-light"
     }
   ]
 }

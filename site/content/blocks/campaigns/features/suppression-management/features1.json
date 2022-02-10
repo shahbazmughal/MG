@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Suppress the problematic **email addresses**:",
+      "text": "Suppress the problematic **email addresses**",
       "variant": "h2"
     },
     {
@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/suppress-email.svg",
       "radius": "lg",
       "alt": "Flexible",
       "effects": ["fadeInLeft", "float"]

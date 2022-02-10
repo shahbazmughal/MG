@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Suppress the IPs messing with Sender Reputation:",
+      "text": "Suppress the IPs messing with Sender Reputation",
       "variant": "h2"
     },
     {
@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/suppress-reputation.svg",
       "radius": "lg",
       "alt": "Importing",
       "effects": ["fadeInLeft", "float"]

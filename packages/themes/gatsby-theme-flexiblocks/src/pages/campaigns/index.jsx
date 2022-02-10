@@ -143,6 +143,8 @@ const IndexPage = props => {
         <Divider space='5' />
         <FeatureTwo content={content['feature-two']} />
         <Divider space='6' />
+        <FeatureLeft content={content['features29']} />
+        <Divider space='56' />
         {/*<Divider space='6' />
          <Container variant='full' sx={styles.strategiesContainer}>
           <Divider space={-6} />

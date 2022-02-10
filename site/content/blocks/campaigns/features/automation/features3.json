@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Always keep subscribers in loop with **Evergreen Campaigns**:",
+      "text": "Always keep subscribers in loop with **Evergreen Campaigns**",
       "variant": "h2"
     },
     {
@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/automation-evergreen.svg",
       "radius": "lg",
       "alt": "Importing",
       "effects": ["fadeInLeft", "float"]

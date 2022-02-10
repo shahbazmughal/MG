@@ -25,7 +25,7 @@
       "text": "Learn more   ➜",
       "type": "PAGE",
       "link": "/campaigns/features/swift-sending/",
-      "variant": "links.normal"
+      "variant": "primary-light"
     }
   ]
 }

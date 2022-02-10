@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Nunito:wght@300;400;600;700;800;900&display=swap');
 ::selection {
-    background: rgb(33,150,243 ,.3);
+    background: rgb(230 255 251);
+    color: #000000;
 }
 * {
     -webkit-box-sizing: border-box;

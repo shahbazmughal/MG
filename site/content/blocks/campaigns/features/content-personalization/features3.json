@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Make tailor perfect content by using Dynamic Content Tags:",
+      "text": "Make tailor perfect content by using Dynamic Content Tags",
       "variant": "h2"
     },
     {
@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/personalization-tags.svg",
       "radius": "lg",
       "alt": "Importing",
       "effects": ["fadeInLeft", "float"]

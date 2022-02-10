@@ -14,9 +14,21 @@ import Hero from '@solid-ui-blocks/InnerPage/HeroBlock02'
 import FeatureLeft from '@solid-ui-blocks/InnerPage/FeatureLeft'
 import FeatureRight from '@solid-ui-blocks/InnerPage/FeatureRight'
 import Services from '@solid-ui-blocks/InnerPage/FeaturesBlock05'
+import ContentImages from '@solid-ui-components/ContentImages'
 import theme from './_theme'
 import styles from './_styles'
 import './innerpage.css'
+
+const styled = {
+  image: {
+    margin:`-50px auto 0px`,
+    display: `table`
+  }, 
+  image2: {
+    margin:`0px auto 0px`,
+    display: `table`
+  }
+}
 
 const campFeaturesBroadcasts = props => {
   const { allBlockContent } = props.data
@@ -36,6 +48,14 @@ const campFeaturesBroadcasts = props => {
         <Container className="innerpage-heroblock" variant='full' sx={styles.heroContainer}>
           <Hero content={content['hero']} />
           <Divider space='5' />
+          <div className="innerpage-section bg-light pt-0 pb-0">
+            <ContentImages
+              content={content['images']}
+              sx={styled.image}
+              imageEffect='fadeIn'
+            />
+            <Divider space='4' />
+          </div>
         </Container>
         <div className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features1']} />

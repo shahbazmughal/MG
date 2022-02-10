@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Quickly get back to the customers by setting up **Autoresponders**:",
+      "text": "Quickly get back to the customers by setting up **Autoresponders**",
       "variant": "h2"
     },
     {
@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/automation-quick.svg",
       "radius": "lg",
       "alt": "Importing",
       "effects": ["fadeInLeft", "float"]

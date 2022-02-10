@@ -151,4 +151,14 @@
         padding-top: 50px;
         padding-bottom: 30px;
     }
+    .innerpage-main #hero .css-1cg4oua {
+        margin: 0px auto 20px !important;
+        font-size: 1.8rem !important;
+    }
+    .innerpage-main .innerpage-section .gatsby-image-wrapper {
+        margin: 40px auto 20px !important;
+    }
+    .innerpage-main .subheader-main .nav-container .css-aaitl3 a.button-group-link.level-1>.css-12hibeq {
+        font-size: 13px !important;
+    }
 }
