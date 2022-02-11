@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/ab-toplist.svg",
       "radius": "lg",
       "alt": "Flexible",
       "effects": ["fadeInLeft", "float"]

@@ -46,7 +46,7 @@ const campFeaturesAbTesting = props => {
         <div className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features3']} />
         </div>
-        <div className="innerpage-section bg-white img-left">
+        <div className="innerpage-section bg-light img-left">
           <Services content={content['featuresmore']} />
         </div>
         

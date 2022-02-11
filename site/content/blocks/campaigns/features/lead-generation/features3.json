@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/campaigns/features/lead-zapier.jpg",
+      "src": "../../../../assets/flexiblocks/campaigns/features/lead-zapier.svg",
       "radius": "lg",
       "alt": "Importing",
       "effects": ["fadeInLeft", "float"]

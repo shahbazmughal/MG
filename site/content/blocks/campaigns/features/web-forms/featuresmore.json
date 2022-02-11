@@ -20,7 +20,7 @@
       {
         "text": [
           {
-            "text": "Choose desired subscription fields",
+            "text": "Choose desired **subscription fields**",
             "color": "omegaDarker",
             "variant": "h4"
           },
@@ -37,7 +37,7 @@
       {
         "text": [
           {
-            "text": "Choose a redirection page for subscriber",
+            "text": "Choose a **redirection page** for subscriber",
             "color": "omegaDarker",
             "variant": "h4"
           },

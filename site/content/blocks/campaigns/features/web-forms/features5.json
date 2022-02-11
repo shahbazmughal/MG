@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Setup an error page if one occurs",
+      "text": "Setup an **error page** if one occurs",
       "variant": "h2"
     },
     {
@@ -11,7 +11,7 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/sms/inner/1-1.png",
+      "src": "../../../../assets/flexiblocks/campaigns/features/webform-error.svg",
       "radius": "lg",
       "alt": "Importing",
       "effects": ["fadeInLeft", "float"]
