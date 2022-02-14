@@ -40,7 +40,7 @@ const IndexPage = props => {
           <Divider space='5' />
         </Container>
 
-        <div className="one-features-main bg-white section">
+        <div id="list-create-manage" className="one-features-main bg-white section">
           <FeatureLeft content={content['features1']} />
           <FeatureRight content={content['features2']} />
           <FeatureLeft content={content['features3']} />
@@ -53,34 +53,36 @@ const IndexPage = props => {
           <FeatureMain content={content['featuremain1']} />
         </div>
 
-        <div className='oneservice2 bg-white section'>
+        <div id="automation" className='oneservice2 bg-white section'>
           <Services content={content['services1']} />
-          <FeatureMain content={content['featuremain2']} />
+          <span id="drip-campaigns">
+            <FeatureMain content={content['featuremain2']} />
+          </span>
           <FeatureMain content={content['featuremain3']} />
         </div>
 
-        <div className='oneservice3 bg-light section image-right'>
+        <div id="campaign-builder" className='oneservice3 bg-light section image-right'>
           <FeatureLeft content={content['features6']} />
           <FeatureMain content={content['featuremain4']} />
         </div>
 
-        <div className='oneservice2 bg-white section'>
+        <div id="testing" className='oneservice2 bg-white section'>
           <Services content={content['services2']} />
           <FeatureMain content={content['featuremain5']} />
         </div>
 
-        <div className='oneservice2 bg-light section'>
+        <div id="personalized-marketing" className='oneservice2 bg-light section'>
           <Services content={content['services3']} />
           <FeatureMain content={content['featuremain6']} />
           <FeatureMain content={content['featuremain7']} />
         </div>
 
-        <div className='oneservice2 bg-white section'>
+        <div id="swift-sending" className='oneservice2 bg-white section'>
           <Services content={content['services4']} />
           <FeatureMain content={content['featuremain8']} />
         </div>
 
-        <div className='oneservice2 bg-light section ecommerce'>
+        <div id="ecommerce" className='oneservice2 bg-light section ecommerce'>
           <Services content={content['services5']} />
           <FeatureMain content={content['featuremain9']} />
           <FeatureMain content={content['featuremain10']} />

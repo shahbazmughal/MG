@@ -49,6 +49,7 @@ const FeaturesWithPhotoBlock05 = ({
             <Flex sx={styles.items}>
               {collection.map(({ text }, index) => (
                   <Flex
+                    key={`item-${index}`}
                     sx={{
                       flexDirection: `column`,
                       height: `full`

@@ -9,8 +9,9 @@
     {
       "text": "Read More",
       "type": "PAGE",
-      "link": "/one",
-      "variant": "dark"
+      "link": "https://school.mumara.com/resources/educational/personalized-emails/",
+      "variant": "dark",
+      "target": "_blank"
     }
   ]
 }

@@ -27,8 +27,9 @@
     {
       "text": "Tell me how",
       "type": "PAGE",
-      "link": "/one/features",
-      "variant": "primary"
+      "link": "https://school.mumara.com/resources/educational/mumara-one-the-only-marketing-platform-you-need-to-beat-the-competition/",
+      "variant": "primary",
+      "target": "_blank"
     }
   ]
 }

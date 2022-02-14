@@ -58,7 +58,7 @@ const campFeatures05 = props => {
             <Divider space='4' />
           </div>
         </Container>
-        <div className="innerpage-section bg-white img-right">
+        <div id="contact-lists" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features1']} />
         </div>
         <div className="innerpage-section bg-light img-left">
@@ -67,7 +67,7 @@ const campFeatures05 = props => {
         <div className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features3']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="custom-fields" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features4']} />
         </div>
 

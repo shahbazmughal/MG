@@ -37,22 +37,22 @@ const campFeaturesSwiftSending = props => {
           <Hero content={content['hero']} />
           <Divider space='5' />
         </Container>
-        <div className="innerpage-section bg-white img-right">
+        <div id="sending-domains" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features1']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="tracking-domains" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features2']} />
         </div>
-        <div className="innerpage-section bg-white img-right">
+        <div id="sending-nodes" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features3']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="speed" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features4']} />
         </div>
-        <div className="innerpage-section bg-white img-right">
+        <div id="multithreading" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features5']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="sending-node" className="innerpage-section bg-light img-left">
           <Services content={content['featuresmore']} />
         </div>
         

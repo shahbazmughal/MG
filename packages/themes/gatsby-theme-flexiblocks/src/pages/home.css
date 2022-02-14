@@ -45,6 +45,16 @@ img {max-width:100%}
 .home-e-features .css-1d0obui {
     align-items: self-start;
 }
+.homepage-main span.pmonth {
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    line-height: 1;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-left: 2px;
+    color: #949494;
+}
 
 @media screen and (min-width: 768px) {
     .css-1tut1vu.container-level-1.no-collection {

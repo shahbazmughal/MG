@@ -57,21 +57,21 @@ const campFeaturesDashboardStatistics = props => {
             <Divider space='4' />
           </div>
         </Container>
-        <div className="innerpage-section bg-white img-right">
+        <div id="live-events" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features1']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="email-graph" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features2']} />
         </div>
-        <div className="innerpage-section bg-white img-right">
+        <div id="recipient" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features3']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="top-domains" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features4']} />
         </div>
         <Divider space='5' />
-        <Container variant='full' sx={styles.featuresContainer}>
-          <Features content={content['features']} />
+        <Container id="top-devices" variant='full' sx={styles.featuresContainer}>
+          <Features id="" content={content['features']} />
         </Container>
         <Divider space='5' />
         <Divider space='5' />

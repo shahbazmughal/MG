@@ -38,19 +38,19 @@ const campFeatures06 = props => {
           <Hero content={content['hero']} />
           <Divider space='5' />
         </Container>
-        <div className="innerpage-section bg-white img-right">
+        <div id="custom-variables" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features1']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="spintags" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features2']} />
         </div>
-        <div className="innerpage-section bg-white img-right">
+        <div id="dynamic-tags" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features3']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="conditional-content" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features4']} />
         </div>
-        <div className="innerpage-section bg-white img-right">
+        <div id="purchase-pattern" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features5']} />
         </div>
         

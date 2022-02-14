@@ -36,7 +36,7 @@ const campFeaturesBouncesSpam = props => {
           <Hero content={content['hero']} />
           <Divider space='5' />
         </Container>
-        <div className="innerpage-section bg-white img-right">
+        <div id="bounce-rules" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features1']} />
         </div>
         <div className="innerpage-section bg-light img-left">
@@ -45,10 +45,10 @@ const campFeaturesBouncesSpam = props => {
         <div className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features3']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="imap-pop" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features4']} />
         </div>
-        <div className="innerpage-section bg-white img-right">
+        <div id="fbl" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features5']} />
         </div>
         

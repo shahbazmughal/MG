@@ -29,7 +29,7 @@
         {
           "text": "Learn more   ➜",
           "type": "PAGE",
-          "link": "/campaigns/features/automation/",
+          "link": "/campaigns/features/automation/#drip-campaigns",
           "variant": "links.normal"
         }
       ]
@@ -54,7 +54,7 @@
         {
           "text": "Learn more   ➜",
           "type": "PAGE",
-          "link": "/campaigns/features/automation/",
+          "link": "/campaigns/features/automation/#triggers",
           "variant": "links.normal"
         }
       ]
@@ -79,7 +79,7 @@
         {
           "text": "Learn more   ➜",
           "type": "PAGE",
-          "link": "/campaigns/features/automation/#campaign-feature-evergreen",
+          "link": "/campaigns/features/automation/#evergreen-campaigns",
           "variant": "links.normal"
         }
       ]
@@ -104,7 +104,7 @@
         {
           "text": "Learn more   ➜",
           "type": "PAGE",
-          "link": "/campaigns/features/automation/",
+          "link": "/campaigns/features/automation/#split-test",
           "variant": "links.normal"
         }
       ]

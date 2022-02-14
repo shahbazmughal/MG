@@ -37,16 +37,16 @@ const campFeaturesAutomation = props => {
           <Hero content={content['hero']} />
           <Divider space='5' />
         </Container>
-        <div className="innerpage-section bg-white img-right">
+        <div id="drip-campaigns" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features1']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="triggers" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features2']} />
         </div>
-        <div className="innerpage-section bg-white img-right" id="campaign-feature-evergreen">
+        <div id="evergreen-campaigns" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features3']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="split-test" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features4']} />
         </div>
         <div className="innerpage-section bg-white img-right">

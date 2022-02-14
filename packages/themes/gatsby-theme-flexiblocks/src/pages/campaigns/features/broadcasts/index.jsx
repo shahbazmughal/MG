@@ -60,13 +60,13 @@ const campFeaturesBroadcasts = props => {
         <div className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features1']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="editor" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features2']} />
         </div>
         <div className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features3']} />
         </div>
-        <div className="innerpage-section bg-light img-left">
+        <div id="schedule" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features4']} />
         </div>
         <div className="innerpage-section bg-white img-left">

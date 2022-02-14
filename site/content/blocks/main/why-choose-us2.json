@@ -94,7 +94,7 @@
         }
       ],
       "icon": {
-        "src": "../../assets/flexiblocks/icons/bx-envelope.svg",
+        "src": "../../assets/flexiblocks/icons/bx-mail-send.svg",
         "color": "alpha"
       }
     },
@@ -250,6 +250,23 @@
       ],
       "icon": {
         "src": "../../assets/flexiblocks/icons/bx-user.svg",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Landing Pages",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Build your website and landing pages powered by Mumara, and connect them with the web forms to capture the leads.",
+          "color": "omega"
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
         "color": "alpha"
       }
     }

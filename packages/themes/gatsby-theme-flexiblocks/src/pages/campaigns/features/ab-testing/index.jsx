@@ -37,7 +37,7 @@ const campFeaturesAbTesting = props => {
           <Hero content={content['hero']} />
           <Divider space='5' />
         </Container>
-        <div className="innerpage-section bg-white img-right">
+        <div id="ab-testing" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features1']} />
         </div>
         <div className="innerpage-section bg-light img-left">

@@ -49,7 +49,7 @@
         {
           "text": "Explore   ➜",
           "type": "PAGE",
-          "link": "/one/blog",
+          "link": "https://school.mumara.com/",
           "variant": "links.normal"
         }
       ]
