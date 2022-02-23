@@ -9,6 +9,7 @@ import Footer from '@solid-ui-blocks/Sms/Pricing/FooterBlock01'
 import Features from '@solid-ui-blocks/Sms/Pricing/Block06'
 import SubHeader from '@solid-ui-blocks/SubHeader/SubHeader'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import Menu from '@solid-ui-blocks/Menu'
 import styles from './_styles'
 import theme from './_theme'
 
@@ -23,7 +24,7 @@ const Services01 = props => {
       <div className="subheader-block">
         <SubHeader content={content['subheader_sms']} menuJustify='space-between' />
       </div>
-      <Header content={content['header']} />
+      <Menu content={content['header']} />
       <Container className="classic-featuresBlk" variant='full' sx={styles.heroContainer}>
         <Divider space='2' />
         <Features content={content['cl_features']} />

@@ -15,6 +15,7 @@ import Footer from '@solid-ui-blocks/Classicesp/FooterBlock01'
 import WhyChooseUs from '@solid-ui-blocks/Classicesp/FeaturesBlock04'
 import Services from '@solid-ui-blocks/Classicesp/FeaturesBlock05'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import Menu from '@solid-ui-blocks/Menu'
 import Main from '@solid-ui-blocks/SEO/Main'
 import Base from '@solid-ui-blocks/SEO/Base'
 import ClassicEsp from '@solid-ui-blocks/Classicesp/ClassicEsp'
@@ -31,7 +32,9 @@ const IndexPage = props => {
       <Seo title='Software for Email Service Providers' description="Email service providers can have the Mumara ESP installed on their webserver, can configure it with all required resources to offer email services to its clients." />
       {/* Blocks */}
       <div className="classic-esp-main">
-        <Header className="menu-light" content={content['header-light']} menuJustify='space-between' />
+        {/* <Header className="menu-light" content={content['header-light']} menuJustify='space-between' /> */}
+        <Menu className="menu-light" content={content['header-light']} menuJustify='space-between' />
+
         <Container variant='full' sx={styles.heroContainer}>
           <Divider space='5' />
           <Hero content={content['hero']} reverse />

@@ -45,7 +45,7 @@ const campFeaturesSuppressionManagement = props => {
         <Header content={content['header']} />
         <Divider space='5' />
         <Divider space='4' />
-        <Container className="innerpage-heroblock" variant='full' sx={styles.heroContainer}>
+        <Container className="innerpage-heroblock supperession-management" variant='full' sx={styles.heroContainer}>
           <Hero content={content['hero']} />
           <Divider space='5' />
           <div className="innerpage-section bg-light pt-0 pb-0">

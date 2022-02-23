@@ -8,7 +8,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const styles = {
   background : {
-    backgroundColor: "#d6dfff"
+    backgroundColor: "#d6ebea"
   }
 }
 

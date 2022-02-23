@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Helmet } from "react-helmet"
 import PriceBlock02 from '../PriceBlock02'
 import './style.css'
@@ -45,6 +45,18 @@ function PriceBlock01() {
     setState({ ...state, [name]: event.target.value, });
     setValues({ ...values, [name]: event.target.value });
   };
+
+  useEffect(()=> {
+
+    var param = location.search.split('tab=')[1];
+    console.log(param);
+    if(param == "self") {
+      setState({...state, tab1: " active show", tab2: " ", tabs_selectedTab1: " tabs_selectedTab",tabs_selectedTab2: " ", panel1: "hide", panel2:"hide", panel3:"hide", panel4:"hide", panel5:"hide", panel6:"hide", panel7:"hide", open1: "", open2: "", open3: "", open4: "", open5: "", open6: "", open7: "" });
+    } else if(param == "cloud") {
+      setState({...state, tab1: " ", tab2: " active show", tabs_selectedTab1: " ",tabs_selectedTab2: " tabs_selectedTab", panel1: "hide", panel2:"hide", panel3:"hide", panel4:"hide", panel5:"hide", panel6:"hide", panel7:"hide", open1: "", open2: "", open3: "", open4: "", open5: "", open6: "", open7: "" });
+    }
+
+	},[])
 
   const comPkgChange =(e)=> {
     var val = e.target.value;
@@ -497,9 +509,9 @@ function PriceBlock01() {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6"  data-aos-delay="200">
-                <div className="box feature-block">
+                <div className="box">
                   <div className="pheader-blk">
-                    <h3 className="mb-0">Professional</h3>
+                    <h3 style={{color: `#718096`}} className="mb-0">Professional</h3>
                     <div className='css-mm6smv'>(Single User)</div>
                     <div className="css-zkfaav">
                       <div className="css-vurnku">
@@ -610,7 +622,7 @@ function PriceBlock01() {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6">
-                <div className="box commercial">
+                <div className="box commercial feature-block">
                   <div className="pheader-blk">
                     <h3 style={{color: `#718096`}} className="mb-0">Commercial</h3>
                     <div style={{height:`28px`}}></div>
@@ -1127,14 +1139,14 @@ function PriceBlock01() {
                     </div>
                   </div>
                   <div data-accordion-component="AccordionItemPanel" className={`accordion__panel `+state.panel6} role="region" aria-labelledby="accordion__heading-raa-5" id="accordion__panel-raa-5">
-                    <div className="css-1chvpb5">This is a self-hosted edition that you’ll need to host on your own server and connect any third-party SMTP or any other integrated ESP account e.g. Amazon SES, Sengdrid, Mailgun, Mailjet, Sparkpost, Elastic Email and more. Mumara doesn’t provide any SMTP or IP addresses with this edition of the product. If you are looking for an email service, you may look into our other product <a href="https://mumara.com/one/">MumaraOne</a>.</div>
+                    <div className="css-1chvpb5">This is a self-hosted edition that you’ll need to host on your own server and connect any third-party SMTP or any other integrated ESP account e.g. Amazon SES, Sengdrid, Mailgun, Mailjet, Sparkpost, Elastic Email and more. Mumara doesn’t provide any SMTP or IP addresses with this edition of the product. If you are looking for an email service, you may look into our other product <a href="https://mumara.com/one/">Mumara ONE</a>.</div>
                     <div className="css-1jzi1b4"></div>
                   </div>
                 </div>
               </div>
               <div className="css-1l3rlkf">
                 <div data-accordion-component="AccordionItem" className="accordion__item">
-                  <div data-accordion-component="AccordionItemHeading" role="heading" className={"accordion__heading"+state.open7} aria-level="3">
+                  <div data-accordion-component="AccordionItemHeading" role="heading" className={"accordion__heading "+state.open7} aria-level="3">
                     <div className="accordion__button" id="accordion__heading-raa-6" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-raa-6" role="button" tabIndex="0" data-accordion-component="AccordionItemButton" data-pid="7">
                       <div className="css-166hnro" onClick={openPanel} data-pid="7">
                         <div className="css-ae809u" data-pid="7">
@@ -1157,7 +1169,7 @@ function PriceBlock01() {
           </div>
         </section>
       </div>
-      <div className={"tab-pane fade"+state.tab2} id="tab2">
+      <div className={"tab-pane fade "+state.tab2} id="tab2">
         <PriceBlock02 />
         <section id="camp-faq2" className="pricing bg-light">
           <div className="css-1lx7oj">
@@ -1288,7 +1300,7 @@ function PriceBlock01() {
                     </div>
                   </div>
                   <div data-accordion-component="AccordionItemPanel" className={`accordion__panel `+state.panel6} role="region" aria-labelledby="accordion__heading-raa-5" id="accordion__panel-raa-5">
-                    <div className="css-1chvpb5">This edition is hosted on our cloud network and doesn’t come up with any SMTP. You’ll need to connect to any third-party SMTP or any other integrated ESP account e.g. Amazon SES, Sengdrid, Mailgun, Mailjet, Sparkpost, Elastic Email and more. Mumara doesn’t provide any SMTP or IP addresses with this edition of the product. If you are looking for an email service, you may look into our other product <a href="https://mumara.com/one/">MumaraOne</a>.</div>
+                    <div className="css-1chvpb5">This edition is hosted on our cloud network and doesn’t come up with any SMTP. You’ll need to connect to any third-party SMTP or any other integrated ESP account e.g. Amazon SES, Sengdrid, Mailgun, Mailjet, Sparkpost, Elastic Email and more. Mumara doesn’t provide any SMTP or IP addresses with this edition of the product. If you are looking for an email service, you may look into our other product <a href="https://mumara.com/one/">Mumara ONE</a>.</div>
                     <div className="css-1jzi1b4"></div>
                   </div>
                 </div>

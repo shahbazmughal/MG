@@ -5,7 +5,7 @@
       "variant": "h1"
     },
     {
-      "text": "MumaraOne is a simplified intelligent marketing automation tool.",
+      "text": "Mumara ONE is a simplified intelligent marketing automation tool.",
       "color": "omegaDark",
       "variant": "medium"
     }
@@ -13,7 +13,7 @@
   "images": [
     {
       "src": "../../assets/flexiblocks/one/header.png",
-      "alt": "Mumara One",
+      "alt": "Mumara ONE",
       "radius": "lg",
       "shadow": "default",
       "border": "lg",

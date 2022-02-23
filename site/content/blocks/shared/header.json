@@ -21,6 +21,7 @@
           "buttons": [
             {
               "text": "Campaigns",
+              "bg":"Build up your SMS marketing company and sell the SMS service to your clients.",
               "type": "PAGE",
               "link": "/campaigns",
               "variant": "links.nav-dark",
@@ -31,6 +32,7 @@
             },
             {
               "text": "SMS",
+              "bg":"Send transactional and promotional messages to your clients with delivery reports.",
               "type": "PAGE",
               "link": "/sms",
               "variant": "links.nav-dark",
@@ -41,6 +43,7 @@
             },
             {
               "text": "SMS+",
+              "bg":"Build up your SMS marketing company and sell the SMS service to your clients.",
               "type": "PAGE",
               "link": "/smsplus",
               "variant": "links.nav-dark",
@@ -51,6 +54,7 @@
             },
             {
               "text": "Classic Pro",
+              "bg":"Fast and reliable self-hosted email marketing platform. Alternatively called “older brother of Mumara Campaigns”.",
               "type": "PAGE",
               "link": "/classic",
               "variant": "links.nav-dark",
@@ -61,6 +65,7 @@
             },
             {
               "text": "Classic ESP",
+              "bg":"Sell emailing service to your clients and automate the experience of authenticating their sending domains and generating SMTPs.",
               "type": "PAGE",
               "link": "/classic-esp",
               "variant": "links.nav-dark",
@@ -78,6 +83,7 @@
           "buttons": [
             {
               "text": "One",
+              "bg":"Send personalized campaigns and transactional emails from our platform and IP addresses.",
               "type": "PAGE",
               "link": "/one",
               "variant": "links.nav-dark",
@@ -88,6 +94,7 @@
             },
             {
               "text": "Drive",
+              "bg":"Mumara Drive provides secure cloud storage for your photos, videos, music, and other files. A drive you can trust and stays with you all the time.",
               "type": "PAGE",
               "link": "https://drive.mumara.com/",
               "variant": "links.nav-dark",
@@ -112,6 +119,7 @@
                   "buttons": [
                     {
                       "text": " Community",
+                      "bg":"Give suggestions or get suggestions and talk to the experts.",
                       "type": "PAGE",
                       "link": "https://community.mumara.com/",
                       "variant": "links.nav-dark",
@@ -129,6 +137,7 @@
                   "buttons": [
                     {
                       "text": "Mumara Business School",
+                      "bg":"Learn how to get the maximum out of your Marketing!",
                       "type": "PAGE",
                       "link": "https://school.mumara.com/",
                       "variant": "links.nav-dark",
@@ -153,6 +162,7 @@
                   "buttons": [
                     {
                       "text": "Documentation",
+                      "bg":"Find the answers to your questions and learn how to use Mumara.",
                       "type": "PAGE",
                       "link": "https://support.mumara.com/help-center",
                       "variant": "links.nav-dark",
@@ -170,6 +180,7 @@
                   "buttons": [
                     {
                       "text": "Blog",
+                      "bg":"Stay updated with the latest news and what’s going around the Mumara",
                       "type": "PAGE",
                       "link": "https://blog.mumara.com/",
                       "variant": "links.nav-dark",
@@ -187,6 +198,7 @@
                   "buttons": [
                     {
                       "text": "Developers",
+                      "bg":"Enhance Mumara functionality by adding your code to it or integrate Mumara with your application.",
                       "type": "PAGE",
                       "link": "https://developers.mumara.com/",
                       "variant": "links.nav-dark",

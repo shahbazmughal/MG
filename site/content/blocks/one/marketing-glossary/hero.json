@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "MumaraOne Marketing Glossary",
+      "text": "Mumara ONE Marketing Glossary",
       "color": "alpha",
       "variant": "h6"
     },
@@ -11,7 +11,7 @@
       "variant": "h2"
     },
     {
-      "text": "Familiarize, Learn Grow and Dominate with MumaraOne.",
+      "text": "Familiarize, Learn Grow and Dominate with Mumara ONE.",
       "color": "omegaDark",
       "variant": "medium"
     }
@@ -19,7 +19,7 @@
   "images": [
     {
       "src": "../../../assets/flexiblocks/one/marketing-glossary/05.png",
-      "alt": "Grow with MumaraOne",
+      "alt": "Grow with Mumara ONE",
       "effects": ["fadeInDown"]
     }
   ]

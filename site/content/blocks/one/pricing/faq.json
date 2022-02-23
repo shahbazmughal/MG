@@ -29,11 +29,11 @@
     {
       "text": [
         {
-          "text": "How does MumaraOne work?",
+          "text": "How does Mumara ONE work?",
           "variant": "h5"
         },
         {
-          "text": "MumaraOne is an email delivery and email validations service that empowers businesses to easily send email from their applications. We’ve built a powerful, cloud-based infrastructure that scales gracefully and handles billions of emails per month so you don’t have to deal with the complexity and hassle of maintaining your own servers. It’s free to sign up and easy to get started. Read our docs for more info on how MumaraOne works."
+          "text": "Mumara ONE is an email delivery and email validations service that empowers businesses to easily send email from their applications. We’ve built a powerful, cloud-based infrastructure that scales gracefully and handles billions of emails per month so you don’t have to deal with the complexity and hassle of maintaining your own servers. It’s free to sign up and easy to get started. Read our docs for more info on how Mumara ONE works."
         }
       ],
       "icon": {
@@ -61,14 +61,14 @@
     {
       "text": [
         {
-          "text": "How do I send my emails with MumaraOne?",
+          "text": "How do I send my emails with Mumara ONE?",
           "variant": "h5"
         },
         {
-          "text": "Since MumaraOne exposes both an HTTP API and an SMTP endpoint, you can choose to send the way you’d like. Both ways have their advantages… SMTP is easy to setup and often plug and play, but API is much more reliable at scale. If you’re building an application, we recommend using our HTTP API."
+          "text": "Since Mumara ONE exposes both an HTTP API and an SMTP endpoint, you can choose to send the way you’d like. Both ways have their advantages… SMTP is easy to setup and often plug and play, but API is much more reliable at scale. If you’re building an application, we recommend using our HTTP API."
         },
         {
-          "text": "One thing to note: There’s no send button in MumaraOne, so if that’s what you’re looking for, contact us and we’ll point you in the right direction."
+          "text": "One thing to note: There’s no send button in Mumara ONE, so if that’s what you’re looking for, contact us and we’ll point you in the right direction."
         }
       ],
       "icon": {
@@ -103,7 +103,7 @@
           "variant": "h5"
         },
         {
-          "text": "Every MumaraOne plan (except free) allows you to add as many users as you need to your account at no additional cost. We find that this keeps people from sharing login credentials (a security no-no), and it makes you happy. Win win. You can also manage user permissions with our five user roles. Read more about our role-based access control. Free plans are limited to 1 user per account."
+          "text": "Every Mumara ONE plan (except free) allows you to add as many users as you need to your account at no additional cost. We find that this keeps people from sharing login credentials (a security no-no), and it makes you happy. Win win. You can also manage user permissions with our five user roles. Read more about our role-based access control. Free plans are limited to 1 user per account."
         }
       ],
       "icon": {
@@ -115,7 +115,7 @@
     {
       "text": [
         {
-          "text": "I want to test out MumaraOne first. How can I do that?",
+          "text": "I want to test out Mumara ONE first. How can I do that?",
           "variant": "h5"
         },
         {

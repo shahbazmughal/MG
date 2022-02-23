@@ -50,8 +50,11 @@ const campFeatures06 = props => {
         <div id="conditional-content" className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features4']} />
         </div>
-        <div id="purchase-pattern" className="innerpage-section bg-white img-right">
+        <div id="custom audiences" className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features5']} />
+        </div>
+        <div id="purchase-pattern" className="innerpage-section bg-light img-left">
+          <FeatureRight content={content['features6']} />
         </div>
         
         <Footer content={content['footer']} />
@@ -65,7 +68,7 @@ const campFeatures06 = props => {
 export const query = graphql`
   query campFeatures06BlockContent {
     allBlockContent(
-      filter: { page: { in: ["campaigns/features/content-personalization", "shared"] } }
+      filter: { page: { in: ["campaigns/features/personalization-options", "shared"] } }
     ) {
       nodes {
         ...BlockContent

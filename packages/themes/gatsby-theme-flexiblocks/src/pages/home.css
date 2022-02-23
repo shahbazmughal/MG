@@ -60,6 +60,11 @@ img {max-width:100%}
     .css-1tut1vu.container-level-1.no-collection {
         min-width: 175px;
     }
+    .homepage-main #feature-three .css-16474cg {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
 }
 @media (max-width:767px) {
     .footerJoint {

@@ -17,6 +17,7 @@ import Faq from '@solid-ui-blocks/One/FaqBlock01'
 import Footer from '@solid-ui-blocks/One/FooterBlock01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import Blog2 from '@solid-ui-blocks/Home/BlogBlock02'
+import Menu from '@solid-ui-blocks/Menu'
 import Main from '@solid-ui-blocks/SEO/Main'
 import Base from '@solid-ui-blocks/SEO/Base'
 import OneSeo from '@solid-ui-blocks/One/OneSeo'
@@ -30,9 +31,11 @@ const IndexPage = props => {
 
   return (
     <Layout theme={theme} {...props}>
-      <Seo title='MumaraOne' description="MumaraOne is a simplified intelligent marketing automation tool." />
+      <Seo title='Mumara ONE' description="Mumara ONE is a simplified intelligent marketing automation tool." />
       {/* Blocks */}
-      <Header content={content['header']} />
+      {/* <Header content={content['header']} /> */}
+      <Menu content={content['header']} />
+
       <Container variant='full' sx={styles.heroContainer}>
         <Divider space='5' />
         <Hero content={content['hero']} />

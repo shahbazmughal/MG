@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Suppress the problematic **email addresses**",
+      "text": "Suppress the **problematic** people or traps",
       "variant": "h2"
     },
     {
-      "text": "Don’t let any recipient destroy the sender reputation. Add the email addresses who’re making complaints to the suppression list so that they don’t receive future campaigns and the sender reputation remains intact.",
+      "text": "Don’t let anyone destroy the IP/Domain reputation by adding the problematic email addresses to the suppression list so that they don’t receive any further emails from the system, and the sender's reputation remains intact.",
       "variant": "medium"
     }
   ],

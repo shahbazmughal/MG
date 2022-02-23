@@ -14,6 +14,7 @@ import FeatureTabThree from '@solid-ui-blocks/Sms/FeaturesWithPhotoBlock07'
 import Faq from '@solid-ui-blocks/Sms/FaqBlock02'
 import WhyChooseUs from '@solid-ui-blocks/Sms/FeaturesBlock04'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import Menu from '@solid-ui-blocks/Menu'
 import Main from '@solid-ui-blocks/SEO/Main'
 import Base from '@solid-ui-blocks/SEO/Base'
 import SmsSeo from '@solid-ui-blocks/Sms/SmsSeo'
@@ -34,9 +35,9 @@ const IndexPage = props => {
       y[i].style = "opacity:1";
     }
   }
-  setTimeout(function() {
-   //myFunction()
-  }, 2000);
+  // setTimeout(function() {
+  //  //myFunction()
+  // }, 2000);
 
   return (
     <Layout theme={theme} {...props}>
@@ -46,9 +47,9 @@ const IndexPage = props => {
         <div className="subheader-block">
           <SubHeader content={content['subheader_sms']} menuJustify='space-between' />
         </div>
-        <Header content={content['header']} />
-        <Divider space='5' />
-        <Divider space='5' />
+        {/* <Header content={content['header']} /> */}
+        <Menu content={content['header']} />
+
         <Hero content={content['hero']} reverse />
         <Divider space='5' />
         <WhyChooseUs content={content['why-choose-us']} />

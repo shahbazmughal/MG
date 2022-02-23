@@ -1,17 +1,17 @@
 {
   "text": [
     {
-      "text": "**Bulk Update contacts** with a single click",
+      "text": "Export list to File",
       "variant": "h2"
     },
     {
-      "text": "Perform bulk actions to the contact list with just a click. Bulk update allows to manage the contacts in a more efficient way that will help in keeping the contact list fresh like a green leaf. Change activity status, subscription status, bounce status and many more in one go.",
+      "text": "A CSV file containing all profile fields is created when a contact list is exported that can be downloaded to your computer.",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../../assets/flexiblocks/campaigns/features/bulk-update.svg",
+      "src": "../../../../assets/flexiblocks/campaigns/features/export-list.svg",
       "radius": "lg",
       "alt": "Importing",
       "effects": ["fadeInLeft", "float"]

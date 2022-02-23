@@ -6,7 +6,7 @@ const styles = {
     imgStyle: {
         width: `100%`,
         height: 240,
-        objectfit: "cover",
+        objectFit: "cover",
         borderRadius: "6px"
     },
     flex0 : {
@@ -48,8 +48,11 @@ function Data() {
                 'Content-Type': 'application/json'
                 }
             });
+
+            console.log(presponse)
             
             if(presponse.status !== 200) {
+                console.log(presponse.status)
                 throw new Error('cannot fetch the posts data.');
             }
             
@@ -60,11 +63,15 @@ function Data() {
         }
 		getPosts()
             .then(pdata => {
+                console.log(pdata)
                 setData(pdata);
                 setLoading(false);
                 posts.push(pdata);
             })
             .catch(err => console.log('Rejected: ', err.message))
+            setTimeout(() => {
+                setLoading(false); 
+            }, 2500);
 	} , []);
     
     return (

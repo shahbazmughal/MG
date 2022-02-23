@@ -2,34 +2,34 @@
     "collection": [
       {
         "icon": {
-          "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+          "src": "../../../../assets/flexiblocks/icons/bx-target-lock.svg",
           "bg": "omegaLighter",
           "color": "alpha"
         },
         "text": [
           {
-            "text": "Create **multiple copies** of same list",
+            "text": "**Prioritize** list columns",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "Make various copies of a list for multiple reasons. Mumara makes it easy to duplicate or triplicate a contact list by using the “make a copy” feature. Create as many copies as required."
+            "text": "Rearrange the column listings on the view contacts page and select the fields that you want to be prioritized when sorting the column list. It is super helpful to view the desired data in a single table view."
           }
         ]
       },
       {
         "text": [
           {
-            "text": "Delete the duplicates by using **Dedupe**",
+            "text": "Contact’s **timeline**",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "Use the “Dedupe List” feature in order to delete contacts from the selected or other than selected list, that are matching in various lists."
+            "text": "Keep track of the events performed on a contact e.g. emails sent, trigger actions, drip campaigns, field value changed, etc."
           }
         ],
         "icon": {
-          "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+          "src": "../../../../assets/flexiblocks/icons/bx-dna.svg",
           "bg": "omegaLighter",
           "color": "alpha"
         }
@@ -37,16 +37,16 @@
       {
         "text": [
           {
-            "text": "Refresh the list by using **“Re-count Subscribers”** option",
+            "text": "**Bulk update** contacts",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "Make Mumara refresh the contact list after any contact is added to or deleted from it by using the feature “Re-count Subscribers”."
+            "text": "Update the existing contacts by importing a CSV file consisting of the email addresses and change their parameters."
           }
         ],
         "icon": {
-          "src": "../../../../assets/flexiblocks/icons/bx-dna.svg",
+          "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
           "bg": "omegaLighter",
           "color": "alpha"
         }

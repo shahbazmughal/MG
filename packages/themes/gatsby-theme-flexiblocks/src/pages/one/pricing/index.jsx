@@ -27,7 +27,7 @@ const IndexPage = props => {
   return (
     <Layout theme={theme} {...props} xs={styles.body}>
       <div className="one-pricing">
-        <Seo title='Mumara ONE Pricing' description="Send your campaign without the fear of running out email credits, subscribe Mumara One to get your email marketer auto deployed on cloud." keywords="purchase one,mumara one pricing,subscribe mumara one" />
+        <Seo title='Mumara ONE Pricing' description="Send your campaign without the fear of running out email credits, subscribe Mumara ONE to get your email marketer auto deployed on cloud." keywords="purchase one,Mumara ONE pricing,subscribe Mumara ONE" />
         {/* Blocks */}
         <div className="subheader-block">
           <SubHeader content={content['subheader_one']} menuJustify='space-between' />

@@ -1,4 +1,10 @@
 {
+  "text": [
+    {
+      "text": "Integrated Apps",
+      "variant": "h2"
+    }
+  ],
   "collection": [
     {
       "images": [
@@ -41,6 +47,69 @@
         {
           "src": "../../assets/flexiblocks/campaigns/smtp-5.png",
           "alt": "MailJet",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-6.png",
+          "alt": "Elastic Email",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-7.png",
+          "alt": "SMTP2GO",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-8.png",
+          "alt": "Postmark",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-9.png",
+          "alt": "Gmail",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-10.png",
+          "alt": "Outlook",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-11.png",
+          "alt": "Yahoo",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-12.png",
+          "alt": "AOL",
           "effects": ["fadeInDown"]
         }
       ]

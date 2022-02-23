@@ -102,7 +102,7 @@ const TestimonialsBlock03 = ({
       </Box>
       <Box
         sx={{
-          flexBasis: `1/2`,
+          flexBasis: `1/3`,
           mx: [null, null, null, 4],
           textAlign: [`center`, null, null, `left`]
         }}

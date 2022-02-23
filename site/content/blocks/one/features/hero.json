@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "MumaraOne",
+      "text": "Mumara ONE",
       "color": "alpha",
       "variant": "h4"
     },
@@ -11,7 +11,7 @@
       "variant": "h2"
     },
     {
-      "text": "MumaraOne is simple, creative and intelligent. Try the latest features to communicate with your customers. Automate your marketing funnel today. Increase convergence.",
+      "text": "Mumara ONE is simple, creative and intelligent. Try the latest features to communicate with your customers. Automate your marketing funnel today. Increase convergence.",
       "color": "omegaDark",
       "variant": "medium"
     }
@@ -19,7 +19,7 @@
   "images": [
     {
       "src": "../../../assets/flexiblocks/one/features/Contact-List-Management.png",
-      "alt": "MumaraOne",
+      "alt": "Mumara ONE",
       "effects": ["fadeInDown"]
     }
   ],

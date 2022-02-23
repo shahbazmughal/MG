@@ -13,6 +13,7 @@ import Base from '@solid-ui-blocks/SEO/Base'
 import Hero from '@solid-ui-blocks/InnerPage/HeroBlock02'
 import FeatureLeft from '@solid-ui-blocks/InnerPage/FeatureLeft'
 import FeatureRight from '@solid-ui-blocks/InnerPage/FeatureRight'
+import Menu from '@solid-ui-blocks/Menu'
 import theme from './_theme'
 import styles from './_styles'
 import './innerpage.css'
@@ -29,9 +30,7 @@ const IndexPage = props => {
         <div className="subheader-block">
           <SubHeader content={content['subheader_sms']} menuJustify='space-between' />
         </div>
-        <Header content={content['header']} />
-        <Divider space='5' />
-        <Divider space='4' />
+        <Menu content={content['header']} />
         <Container className="innerpage-heroblock" variant='full' sx={styles.heroContainer}>
           <Hero content={content['hero']} />
           <Divider space='5' />

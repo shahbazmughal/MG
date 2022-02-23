@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Preserve email deliverability with Domain Suppression",
+      "text": "Preserve **email deliverability** with domain suppression",
       "variant": "h2"
     },
     {
-      "text": "Having deliverability issues with a certain domain or getting too many complaints? Suppress the whole domain to preserve the deliverability and domain reputation. This will help to continue sending campaigns to those who really want to receive them.",
+      "text": "Having deliverability issues with specific domains or being prone to bounces are blocking the deliveries. Suppress such domains to focus on the deliverability and your IP/Domain reputation. It will help to continue sending emails to the domains where you get a green signal.",
       "variant": "medium"
     }
   ],

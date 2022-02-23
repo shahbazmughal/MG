@@ -13,6 +13,7 @@ import Services2 from '@solid-ui-blocks/Classic/FeaturesBlock05'
 import FeatureOne from '@solid-ui-blocks/Classic/FeaturesWithPhotoBlock01'
 import Footer from '@solid-ui-blocks/Classic/FooterBlock01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import Menu from '@solid-ui-blocks/Menu'
 import Main from '@solid-ui-blocks/SEO/Main'
 import Base from '@solid-ui-blocks/SEO/Base'
 import ClassicSeo from '@solid-ui-blocks/Classic/ClassicSeo'
@@ -28,7 +29,9 @@ const IndexPage = props => {
     <Layout theme={theme} {...props} xs={styles.body}>
       <Seo title='Self-Hosted Email Marketing | MumaraClassic' description="Start sending sizeable amount of emails speedily right in the target inbox with MumaraClassic. Reliable self-hosted email marketing software." />
       {/* Blocks */}
-      <Header content={content['header']} />
+      {/* <Header content={content['header']} /> */}
+      <Menu content={content['header']} />
+
       <Container variant='full' sx={styles.heroContainer}>
         <Divider space='5' />
         <Divider space='5' />

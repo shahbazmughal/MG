@@ -19,8 +19,13 @@ import GetStarted from '@solid-ui-blocks/Campaigns/StatsBlock02'
 import FeatureLeft from '@solid-ui-blocks/Campaigns/FeatureLeft'
 import FeatureRight from '@solid-ui-blocks/Campaigns/FeatureRight'
 import FeatureThree from '@solid-ui-blocks/Campaigns/FeaturesBlock07'
+import FeatureTabOne from '@solid-ui-blocks/One/FeaturesWithPhotoBlock05'
+import FeatureTabTwo from '@solid-ui-blocks/One/FeaturesWithPhotoBlock06'
+import FeatureTabThree from '@solid-ui-blocks/One/FeaturesWithPhotoBlock01'
+import Features from '@solid-ui-blocks/Smsplus/FeaturesBlock02'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import Buttons from '@solid-ui-blocks/Home/ButtonsBlock01'
+import Menu from '@solid-ui-blocks/Menu'
 import Main from '@solid-ui-blocks/SEO/Main'
 import Base from '@solid-ui-blocks/SEO/Base'
 import CampaignsSeo from '@solid-ui-blocks/Campaigns/CampaignsSeo'
@@ -37,11 +42,14 @@ const IndexPage = props => {
       <Seo title='Email Marketing & Automation | Mumara Campaigns' description="Intelligently crafted features to ensure higher level of email engagement, Mumara Campaigns is available as Cloud and Self-Hosted platform." />
       {/* Blocks */}
       <div className="campaignplus-page">
-        <Header content={content['header']} />
+        {/* <Header content={content['header']} /> */}
+        <Menu content={content['header']} />
+
         <Container variant='full' sx={styles.heroContainer}>
           <Hero content={content['hero']} />
+          <Divider space='2' />
         </Container>
-        <Divider space='3' />
+        <Divider space='4' />
         <Companies content={content['companies']} />
         <Divider space='5' />
         <Divider space='5' />
@@ -62,10 +70,14 @@ const IndexPage = props => {
         <div className='campservice2'>
           <Services content={content['services2']} />
         </div>
-        <FeatureLeft content={content['features5']} />
+        <Container variant='full' sx={styles.featuresContainerR}>
+          <Features content={content['features']} />
+        </Container>
+        <Divider space='5' />
+        {/* <FeatureLeft content={content['features5']} />
         <FeatureRight content={content['features6']} />
         <FeatureLeft content={content['features7']} />
-        <FeatureRight content={content['features8']} />
+        <FeatureRight content={content['features8']} /> */}
 
         <Divider space='5' />
         <WhyChooseUs2 content={content['why-choose-us2']} />
@@ -95,12 +107,23 @@ const IndexPage = props => {
         <div className='campservice5'>
           <Services content={content['services5']} />
         </div>
-        <Divider space='4' />
+        <Divider space='5' />
+        <Container variant='wide' sx={styles.featuresContainerC}>
+          <FeatureTabOne content={content['feature-tab-one']} reverse />
+          <Divider space='5' />
+          <Divider space='5' />
+          <FeatureTabTwo content={content['feature-tab-two']} />
+          <Divider space='5' />
+          <Divider space='5' />
+          <FeatureTabThree content={content['feature-tab-three']} reverse />
+        </Container>
+        <Divider space='5' />
+        {/* <Divider space='4' />
         <FeatureRight content={content['features18']} />
         <Divider space='4' />
         <FeatureLeft content={content['features19']} />
         <Divider space='3' />
-        <FeatureRight content={content['features20']} />
+        <FeatureRight content={content['features20']} /> */}
 
         <Divider space='5' />
         <div className='campservice6'>

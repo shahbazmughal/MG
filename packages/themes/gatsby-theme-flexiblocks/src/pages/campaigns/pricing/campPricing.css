@@ -71,14 +71,14 @@ section {
     font-size: 14px;
 }
 .camp-pricing .hero-block {
-    padding-top: 160px;
+    padding-top: 60px;
     padding-bottom: 100px;
 }
 .camp-pricing .hero-block h1 {
     margin: 0 auto;
     font-size: 48px;
     font-weight: 700;
-    color: #012970;
+    color: #057868;
     text-align: center;
 }
 .camp-pricing .hero-block h2 {
@@ -182,6 +182,21 @@ dl, ol, ul {
 .slider:before {display: none !important}
 
 
-
-
-
+@media (min-width: 768px) {
+    .camp-pricing .container {
+        width: 750px !important;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1200px) {
+    .camp-pricing .container {
+        width: 1170px !important;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1500px) {
+    .camp-pricing .container {
+        width: 1470px !important;
+        margin: 0 auto;
+    }
+}

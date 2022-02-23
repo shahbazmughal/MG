@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Suppress the IPs messing with Sender Reputation",
+      "text": "Suppress the contacts having past engagements with **specific IP addresses**",
       "variant": "h2"
     },
     {
-      "text": "One of the ways to protect the sender reputation is by suppressing the IPs that cause the trouble. Simply identify the IPs that make complaints or keep bouncing the emails. Add those IPs to the suppression list.",
+      "text": "In certain cases, you may need to suppress the contacts who performed an engagement with specific IP addresses e.g. bots, spam traps, etc. IP suppression will help you do the job!",
       "variant": "medium"
     }
   ],

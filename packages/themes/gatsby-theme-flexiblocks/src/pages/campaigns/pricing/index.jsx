@@ -12,10 +12,7 @@ import Main from '@solid-ui-blocks/SEO/Main'
 import Base from '@solid-ui-blocks/SEO/Base'
 import Hero from '@solid-ui-blocks/Campaigns/Pricing/HeroBlock02'
 import PriceBlock01 from '@solid-ui-blocks/Campaigns/Pricing/PriceBlock01'
-import Tabs from '@solid-ui-components/Tabs'
-import FeatureOne from '@solid-ui-blocks/Campaigns/Pricing/FeaturesWithPhotoBlock02'
-import FeatureTwo from '@solid-ui-blocks/Campaigns/Pricing/FeaturesWithPhotoBlock05'
-import { Helmet } from "react-helmet"
+import Menu from '@solid-ui-blocks/Menu'
 import theme from './_theme'
 import styles from './_styles'
 import './campPricing.css'
@@ -32,7 +29,9 @@ const IndexPage = props => {
         <div className="subheader-block">
           <SubHeader content={content['subheader_campaign']} menuJustify='space-between' />
         </div>
-        <Header content={content['header']} className='innerHeader' />
+        {/* <Header content={content['header']} className='innerHeader' /> */}
+        <Menu content={content['header']} className='innerHeader'  />
+
         <Container variant='full' sx={styles.heroContainer} className='campFhero'>
           <Hero content={content['hero']} />
         </Container>

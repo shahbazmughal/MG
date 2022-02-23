@@ -32,7 +32,7 @@ function index(props) {
                         "image": [
                             "https://www.mumara.com/assets/img/logo-dark.png"
                         ],
-                        "description": "MumaraOne is a simplified intelligent marketing automation tool.",
+                        "description": "Mumara ONE is a simplified intelligent marketing automation tool.",
                         "sku": "0786",
                         "mpn": "974717",
                         "brand": {
@@ -80,8 +80,8 @@ function index(props) {
                         itemType="http://schema.org/ListItem">
                         <a itemScope itemType="http://schema.org/Brand"
                         itemProp="item" href="https://www.mumara.com/one/">
-                        <span itemProp="name">Mumara One</span>
-                        <img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" alt="MumaraOne | Mumara"/></a>
+                        <span itemProp="name">Mumara ONE</span>
+                        <img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" alt="Mumara ONE | Mumara"/></a>
                         <meta itemProp="position" content="1" />
                     </li>
                 </ol>
@@ -90,7 +90,7 @@ function index(props) {
                     <span itemProp="brand">Mumara</span>
                     <span itemProp="name">Campaign+</span>
                     <img itemProp="image" src="https://www.mumara.com/assets/img/logo-dark.png" alt="Mumara ONE" />
-                    <span itemProp="description">MumaraOne is a simplified intelligent marketing automation tool.
+                    <span itemProp="description">Mumara ONE is a simplified intelligent marketing automation tool.
                     </span>
                     Product #: <span itemProp="mpn">1</span>
                     <span itemProp="aggregateRating" itemScope itemType="http://schema.org/AggregateRating">

@@ -36,7 +36,7 @@
         {
           "text": "View Pricing",
           "type": "PAGE",
-          "link": "/campaigns/pricing/",
+          "link": "/campaigns/pricing/?tab=self",
           "variant": "primary-light"
         }
       ]
@@ -61,7 +61,7 @@
         {
           "text": "View Pricing",
           "type": "PAGE",
-          "link": "/campaigns/pricing/",
+          "link": "/campaigns/pricing/?tab=cloud",
           "variant": "primary-light"
         }
       ]

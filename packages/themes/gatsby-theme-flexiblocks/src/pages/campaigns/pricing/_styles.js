@@ -25,7 +25,7 @@ export default {
       width: `full`,
       height: `150%`,
       position: `absolute`,
-      top: 0,
+      top: `-40%`,
       left: 0,
       zIndex: -1,
       background: t =>

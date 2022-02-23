@@ -17,6 +17,7 @@ import WhyChooseUs from '@solid-ui-blocks/Smsplus/FeaturesBlock04'
 import Services from '@solid-ui-blocks/Smsplus/FeaturesBlock05'
 import Companies from '@solid-ui-blocks/Smsplus/CompaniesBlock01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import Menu from '@solid-ui-blocks/Menu'
 import Main from '@solid-ui-blocks/SEO/Main'
 import Base from '@solid-ui-blocks/SEO/Base'
 import SmsplusSeo from '@solid-ui-blocks/Smsplus/SmsplusSeo'
@@ -32,7 +33,9 @@ const IndexPage = props => {
     <Layout className="smsplus-page" theme={theme} {...props}>
       <Seo title='Start SMS Service' description="SMSplus is the platform for the ones who are looking to start SMS service. It is combination of features necessary for SMS service providers to operate." />
       {/* Blocks */}
-        <Header content={content['header-light']} menuJustify='space-between' />
+        {/* <Header content={content['header-light']} menuJustify='space-between' /> */}
+        <Menu content={content['header-light']} menuJustify='space-between' />
+
         <Container variant='full' sx={styles.heroContainer}>
           <Divider space='5' />
           <Hero content={content['hero']} reverse />

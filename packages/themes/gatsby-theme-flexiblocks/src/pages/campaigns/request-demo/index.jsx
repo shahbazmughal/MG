@@ -9,6 +9,7 @@ import Footer from '@solid-ui-blocks/Sms/FooterBlock01'
 import Team from '@solid-ui-blocks/Contacts/HeroBlock03'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import RequestDemo from '@solid-ui-blocks/Campaigns/RequestDemo/RequestDemo'
+import Menu from '@solid-ui-blocks/Menu'
 import theme from './_theme'
 import './camp-demopage.css'
 
@@ -23,7 +24,9 @@ const IndexPage = props => {
         <div className="subheader-block">
           <SubHeader content={content['subheader_campaign']} menuJustify='space-between' />
         </div>
-        <Header content={content['header']} />
+        {/* <Header content={content['header']} /> */}
+        <Menu content={content['header']} />
+
         <Team content={content['team']} />
         <Divider space='5' />
         <RequestDemo  />

@@ -8,6 +8,7 @@ import SubHeader from '@solid-ui-blocks/SubHeader/SubHeader'
 import Header from '@solid-ui-blocks/InnerPage/HeaderBlock01'
 import Footer from '@solid-ui-blocks/InnerPage/FooterBlock01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import Menu from '@solid-ui-blocks/Menu'
 import Main from '@solid-ui-blocks/SEO/Main'
 import Base from '@solid-ui-blocks/SEO/Base'
 import Hero from '@solid-ui-blocks/InnerPage/HeroBlock02'
@@ -43,10 +44,12 @@ const campFeatures05 = props => {
         <div className="subheader-block">
           <SubHeader content={content['subheader_campaign']} menuJustify='space-between' />
         </div>
-        <Header content={content['header']} />
-        <Divider space='5' />
-        <Divider space='4' />
-        <Container className="innerpage-heroblock" variant='full' sx={styles.heroContainer}>
+        
+        {/* <Header content={content['header']} /> */}
+        <Menu content={content['header']} />
+
+        <Container className="innerpage-herobloc" variant='full' sx={styles.heroContainer}>
+          <Divider space='5' />
           <Hero content={content['hero']} />
           <Divider space='5' />
           <div className="innerpage-section bg-light pt-0 pb-0">
@@ -67,8 +70,11 @@ const campFeatures05 = props => {
         <div className="innerpage-section bg-white img-right">
           <FeatureLeft content={content['features3']} />
         </div>
-        <div id="custom-fields" className="innerpage-section bg-light img-left">
+        <div className="innerpage-section bg-light img-left">
           <FeatureRight content={content['features4']} />
+        </div>
+        <div id="custom-fields" className="innerpage-section bg-white img-right">
+          <FeatureLeft content={content['features5']} />
         </div>
 
         <Divider space='5' />

@@ -58,7 +58,9 @@
     padding-top: 50px;
     padding-bottom: 30px;
 }
-
+.innerpage-heroblock.segments #hero .css-10uxdw9 {
+    max-width: 670px !important;
+}
 
 
 @media (min-width: 768px) {

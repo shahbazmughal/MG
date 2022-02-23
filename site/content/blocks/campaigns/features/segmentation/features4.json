@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "Send campaigns according to the **OS & browser** of recipients",
+      "text": "Segmentation based on the **operating system and browser** of the previously engaged contacts",
       "variant": "h2"
     },
     {
-      "text": "Browser & OS based Segmentation will help in creating a new segment that identifies users who open the email or click on one of the links in email from specific browsers and operating systems. ",
+      "text": "The browser and OS-based Segmentation will identify segments in which users, who click on links in the email from specific browsers and operating systems, participate.",
       "variant": "medium"
     }
   ],

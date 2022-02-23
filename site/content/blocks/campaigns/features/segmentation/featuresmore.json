@@ -8,24 +8,24 @@
         },
         "text": [
           {
-            "text": "Make a segment based on the **Subscriber Status**:",
+            "text": "Make a segment based on the **subscription/confirmation** status",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "Based on the subscriber status, create multiple segments and send different segmented campaigns to the subscribers. If a subscriber is removed from a list, a segment can be created in Mumara to send an email campaign for re-subscription. It helps in keeping the contact list healthy."
+            "text": "Creating a segment to send a subscription confirmation email to those without a record of subscriptions is likely a good move if you want to contact all these individuals."
           }
         ]
       },
       {
         "text": [
           {
-            "text": "**Export a segment** to create a separate list:",
+            "text": "Opportunity to **export a segment**",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "Create a separate list of contacts by exporting a segment. Include the desired fields of data by choosing from custom fields, statistics and campaign details. Mumara also allows to replace the order of the data fields."
+            "text": "It is also possible to export a segment to a CSV file, which includes a choice to add chosen fields of these contacts by selecting from fields, statistics, and advertisement data points. Moreover, changing the order of the spreadsheet columns is possible."
           }
         ],
         "icon": {
@@ -37,12 +37,12 @@
       {
         "text": [
           {
-            "text": "**Move a segment** to an existing list:",
+            "text": "**Copy/move** a segment to a contact list",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "Mumara makes it easy to move a segment to an existing list of contacts. Don’t worry about the duplicates as they can be simply updated, skipped, overwritten or deleted."
+            "text": "Mumara lets you copy or move segmented contacts to a contact list in a fast and straightforward manner. Don't worry that the duplicate contacts are kept as you can update, skip, or overwrite them during the execution."
           }
         ],
         "icon": {

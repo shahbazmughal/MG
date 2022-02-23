@@ -19,6 +19,7 @@ import Stats from '@solid-ui-blocks/Home/StatsBlock01'
 import Buttons from '@solid-ui-blocks/Home/ButtonsBlock01'
 import Testimonials from '@solid-ui-blocks/Home/TestimonialsBlock03'
 import Blog2 from '@solid-ui-blocks/Home/BlogBlock02'
+import Menu from '@solid-ui-blocks/Menu'
 import Footer from '@solid-ui-blocks/Home/FooterBlock01'
 import OnePricing from '@solid-ui-blocks/Home/OnePricing'
 import PriceBlock01 from '@solid-ui-blocks/Home/PriceBlock01'
@@ -37,23 +38,24 @@ const HomePage = props => {
     const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
   const [state, setState] = useState({
-      loader:true,
-      pnlock1: "show",
-      pnlock2: "hide"
+      loader:false,
+      pnlock1: "hide",
+      pnlock2: "show"
   }); 
 
-  useEffect( ()=>{
-    setTimeout(() => {
-      setState({...state, loader:false, pnlock1 : "hide", pnlock2: "show"});
-    }, 2000);
-  });
+  // useEffect( ()=>{
+  //   setTimeout(() => {
+  //     setState({...state, loader:false, pnlock1 : "hide", pnlock2: "show"});
+  //   }, 2000);
+  // });
 
 return (
   <Layout theme={theme} {...props}>
     <Seo title='Marketing Automation & Customer Engagement Tools' description="Mumara is collection of SaaS applications and customer engagement tools to fuel your multi-channel marketing strategy." keywords="" image2="https://www.mumara.com/wp-content/uploads/2019/03/Mumara-Feature-Image.jpg" icon={`${ico}`} />
       {/* Blocks */}
       <span className="homepage-main">
-        <Header content={content['header']} />
+        {/* <Header content={content['header']} /> */}
+        <Menu content={content['header']} />
 
         <Container className="homehero-block" variant='full' sx={styles.heroContainer}>
           <Hero content={content['hero']} reverse />

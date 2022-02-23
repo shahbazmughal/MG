@@ -11,6 +11,7 @@ import CompanyAdmin from '@solid-ui-blocks/About/AboutCompanyAdmin'
 import AboutTeam from '@solid-ui-blocks/About/AboutTeam'
 import AboutMission from '@solid-ui-blocks/About/AboutMission'
 import Team from '@solid-ui-blocks/About/Block03'
+import Menu from '@solid-ui-blocks/Menu'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import Stats from '@solid-ui-blocks/Stats/Block01'
 import styles from './_styles'
@@ -25,7 +26,9 @@ const Aboutus = props => {
     <Layout className="aboutus-page-main" theme={theme} {...props}>
       <Seo title='About us | Mumara' />
       {/* Blocks */}
-        <Header content={content['header']} />
+        {/* <Header content={content['header']} /> */}
+        <Menu content={content['header']} />
+
         <Team content={content['team']} />
         <Container className="avout-us-page" variant='full' sx={styles.heroContainer}>
           <Features content={content['cl_features']} />

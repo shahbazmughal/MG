@@ -385,7 +385,7 @@ class PriceBlock02 extends Component {
                 />
                 {/* <Box className="slider-value">{this.state.planName}</Box> */}
                 <Box className="slider-desc-val">Plan Price</Box>
-                <Box className="slider-value">{this.state.price}<span class="pmonth">/mo</span></Box>
+                <Box className="slider-value">{this.state.price}<span className="pmonth">/mo</span></Box>
                 <Box className="ohbblk">
                   <Link className="btn btn-ohb" to={this.state.link}>{this.state.button}</Link>
                 </Box>

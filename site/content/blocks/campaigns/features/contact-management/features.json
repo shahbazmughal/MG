@@ -3,15 +3,15 @@
     {
       "text": [
         {
-          "text": "**Move Contact List** from one group to another",
+          "text": "**Sorting/re-sorting** the contact lists into groups",
           "variant": "h4"
         },
         {
-          "text": "Mumara Campaigns allows changing the group of any list by using the “Move to Another” feature. This way any list can be moved to any of the desired or more suitable group without the hassle. "
+          "text": "A contact list can be assigned to a group. It also gives an opportunity to sort in different ways by using the “Drag and Drop” feature in the tree-view, needed or deemed to be more suitable. "
         }
       ],
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
         "bg": "#FFF2DD",
         "color": "#FF9655"
       }
@@ -19,15 +19,15 @@
     {
       "text": [
         {
-          "text": "**Merge** two contact lists into one",
+          "text": "**Tree-view** display for better categorization",
           "variant": "h4"
         },
         {
-          "text": "Use the “Merge into Another” feature of Mumara to merge a contact list into another one. It is a simple feature that makes it easy to move all the contacts from one list to another."
+          "text": "Contact lists can be displayed in a tree-view hierarchy which displays the contact lists grouped together based on the groups. In another way, it can be called folder-view of the contact lists."
         }
       ],
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
         "bg": "#FEE9E3",
         "color": "#F87488"
       }
@@ -35,11 +35,11 @@
     {
       "text": [
         {
-          "text": "Download invalid and **duplicate contacts** from Import History",
+          "text": "**Merging** contact lists",
           "variant": "h4"
         },
         {
-          "text": "View the import history of any contact list and get access to the downloadable files of contacts which were duplicate or invalid at the time of import of that contact list."
+          "text": "Create multiple chunks of a contact list by splitting it into two or more. Splitting a list can be done by defining the number of contacts per list and also by defining just the number of lists that will create the desired number of lists containing equal contacts."
         }
       ],
       "icon": {
@@ -51,17 +51,49 @@
     {
       "text": [
         {
-          "text": "**Split** a contact list into multiple",
+          "text": "Split a **contact list** into multiple",
           "variant": "h4"
         },
         {
-          "text": "Create multiple chunks of a contact list by splitting it into two or more. Splitting a list can be done by defining the number of contacts per list and also by defining just the number of lists which will create the desired number of lists containing equal contacts."
+          "text": "Create multiple chunks of a contact list by splitting it into multiple lists by the number of contacts or number of contact lists. It’s a useful case under certain circumstances when your list has been grown enough to overload your server."
         }
       ],
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
         "bg": "#F5E7FE",
         "color": "#B887F8"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Create **copies** of a contact list",
+          "variant": "h4"
+        },
+        {
+          "text": "Make various copies of a contact list for multiple reasons. Mumara makes it easy to duplicate or create any number of copies of a contact list along with an option to copy the original contacts as well."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "#9fa8da",
+        "color": "#2a4af8"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "**Dedupe contact list** with the database",
+          "variant": "h4"
+        },
+        {
+          "text": "Deduping a contact list will eliminate the duplicated records from the list, or from all other contact lists. Removing duplicate records from a contact list will get rid of any emails already on the list, or from any other lists you may have."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-data.svg",
+        "bg": "#e8eaf6",
+        "color": "#ffc107"
       }
     }
   ]

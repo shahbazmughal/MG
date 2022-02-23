@@ -25,11 +25,12 @@ const CompaniesBlock01 = ({ content }) => {
 
   return (
     <Container sx={{ textAlign: `center` }}>
-      <ContentText content={text} />
+      
       {text && collection && <Divider />}
-      <Flex sx={{ flexWrap: `wrap`, m: -3 }}>
+      <ContentText content={text} />
+      <Flex sx={{ flexWrap: `wrap`, m: -3 }} className="integrated-apps">
         {collection?.map(({ text, icon, images }, index) => (
-          <Box key={`item-${index}`} sx={{ flexBasis: [`1`, `1/2`, null, `1/5`], p: 3 }}>
+          <Box key={`item-${index}`} sx={{ flexBasis: [`1`, `1/2`, null, `1/6`], p: 2 }}>
             <Box
               title={text?.[0]?.text}
             >
@@ -44,16 +45,9 @@ const CompaniesBlock01 = ({ content }) => {
                 <ContentText content={text} />
               )}
             </Box>
-            <ContentText content={text} />
           </Box>
         ))}
       </Flex>
-      {buttons && (
-        <>
-          <Divider space={3} />
-          <ContentButtons content={buttons} />
-        </>
-      )}
     </Container>
   )
 }

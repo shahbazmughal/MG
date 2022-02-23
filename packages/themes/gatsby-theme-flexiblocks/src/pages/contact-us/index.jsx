@@ -8,6 +8,7 @@ import Header from '@solid-ui-blocks/Contacts/HeaderBlock01'
 import Footer from '@solid-ui-blocks/Contacts/FooterBlock01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import Contacts from '@solid-ui-blocks/Contacts/Contacts'
+import Menu from '@solid-ui-blocks/Menu'
 import theme from './_theme'
 import './contactspage.css'
 
@@ -18,7 +19,9 @@ const IndexPage = props => {
   return (
     <Layout theme={theme} {...props} className="contactus-page-main">
       <Seo title='Contact Us | Mumara' description="Fill in the contact form to send your query regarding apps and services or navigate your preferred app to send the demo request." keywords="mumara phone number,mumara contact number,mumara support,contact mumara" />
-        <Header content={content['header']} />
+        {/* <Header content={content['header']} /> */}
+        <Menu content={content['header']} />
+
         <Team content={content['team']} />
         <Divider space='5' />
         <Contacts  />

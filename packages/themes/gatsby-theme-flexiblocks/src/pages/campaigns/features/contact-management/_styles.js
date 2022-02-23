@@ -20,7 +20,7 @@ export default {
       content: `" "`,
       size: `full`,
       position: `absolute`,
-      top: `-10%`,
+      top: `5%`,
       left: 0,
       zIndex: -1,
       background: t =>

@@ -11,6 +11,7 @@ import Features from '@solid-ui-blocks/Sms/Features/Block06'
 import Team from '@solid-ui-blocks/Sms/Features/Block03'
 import Faq from '@solid-ui-blocks/Sms/Features/Block02'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import Menu from '@solid-ui-blocks/Menu'
 import styles from './_styles'
 import theme from './_theme'
 import './sms-features.css'
@@ -26,7 +27,8 @@ const Services01 = props => {
       <div className="subheader-block">
         <SubHeader content={content['subheader_sms']} menuJustify='space-between' />
       </div>
-      <Header content={content['header']} />
+      {/* <Header content={content['header']} /> */}
+      <Menu content={content['header']} />
       <Team content={content['team']} />
       <Container className="classic-featuresBlk" variant='full' sx={styles.heroContainer}>
         <Features content={content['cl_features']} />
